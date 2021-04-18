@@ -32,7 +32,7 @@ function About() {
             incorporação em diferentes regiões do Brasil. A Falves atua nos
             estados da Bahia (Maraú e Ilhéus) e Rio de Janeiro (Niterói, Búzios
             e Maricá), se adequando a realidade do mercado local, aos novos
-            tempo e novos negócios.
+            tempos e novos negócios.
           </p>
           <p>
             <Button size="lg" blockhref="/#Lançamentos" block className="mt-5">
