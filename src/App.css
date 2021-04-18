@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+:root {
+	--mainDark: #424143;
+	--mainGrey: #8a8a8a;
+	--mainLightGrey: rgba(172,172,172);
+	--mainWhite: #fff;
+	--mainOrange:#ca5b2f;
+	--bs-font-sans-serif: "Seb Neue Sans Serif Thin" !important;
+	--bs-font-monospace: "Seb Neue Sans Serif Thin" !important;
+	--font-family-sans-serif: "Seb Neue Sans Serif Thin" !important;
+	--font-family-monospace: "Seb Neue Sans Serif Thin" !important;
+}
+/*FONT */
+@font-face{
+	font-family:"Seb Neue Sans Serif Thin";
+	src:url("./fonts/SebneueThin-a3GK.otf");
+	font-style:normal;
+	font-weight:100
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face{
+	font-family:"Seb Neue Sans Serif Black";
+	src:url("./fonts/SebneueBlack-dDGX.otf");
+	font-style:normal;
+	font-weight:600
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face{
+	font-family:"Seb Neue Sans Serif Regular";
+	src:url("./fonts/SebneueRegular-eAGm.otf");
+	font-style:normal;
+	font-weight:300
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* TEXT */
+
+html, .navbar, .nav-link, .nav-toggler, footer, .btn, .mainLoginInput::placeholder {
+	font-family:"Seb Neue Sans Serif Regular" !important;
+	font-weight:300;
+	color:var(--mainDark);
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Seb Neue Sans Serif Black";
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p,ul,li {
+	font-family:"Seb Neue Sans Serif Thin";
+	font-weight: 100;
+	font-size: 1rem;
+	
 }
+
+a {
+	color: var(--mainDark);
+	
+}
+
+.text-underline{
+	text-decoration: underline !important;
+}
+
+
+a:hover {
+	color: var(--mainOrange);
+	text-decoration: underline !important;
+	transform: scale(1.025);
+}
+
+.dropdown-item{
+	color: var(--mainOrange);
+}
+
+.dropdown-item:hover{
+	color: var(--mainDark);
+	background: var(--mainWhite);
+	text-decoration: underline;
+	transform: scale(1.025);
+}
+
+.text-center{
+	text-align: center;
+}
+
+.orange{
+	color:var(--mainOrange);
+}
+
+.dark{
+	color:var(--mainDark);
+}
+
+.locationSizeP{
+	font-size:1.5rem;
+
+}
+
+.big-title{
+	font-size:2.5rem;
+}
+
+/*NAVBAR */
+
+
+.nav-link{
+	color: var(--mainOrange) !important;
+}
+
+.nav-link:hover{
+	color: var(--mainDark) !important;
+	text-decoration: underline;
+	transform: scale(1.025);
+}
+
+.navbar-toggler:hover{
+	border-color: var(--mainOrange);
+	color: var(--mainOrange);
+	outline: none;	
+}
+
+.navbar{
+	background-color: var(--mainWhite);
+}
+
+/*BUTTON */
+
+.btn {
+	color: var(--mainOrange) !important;
+	border-color: var(--mainOrange) !important;
+	background-color: var(--mainWhite);
+}
+
+.btn:hover{
+	background-color: var(--mainOrange) !important;
+	color: var(--mainWhite) !important;
+	transform: scale(1.015);
+	border-style: none !important;
+	border: 0px !important;
+	outline: none !important;
+}
+
+.btn-opacity{
+	opacity:60% !important;
+
+}
+
+.btn-opacity:hover{
+	opacity: 100% !important;
+
+}
+
+/* IMAGE */
+.img{
+	opacity: 90%;
+	
+}
+
+.img:hover{
+	transform: scale(1.009);
+	opacity: 100%;
+}
+
+.img-portfolio{
+	width: 100%;
+}
+
+.img-about{
+	width:100%;
+	height: 30vh;
+}
+
+.logo-img:hover{
+	transform: scale(1.025)
+}
+
+/*OTHER ELEMENTS*/
+
+body{
+	padding-top: 50px;
+}
+
+.about-page{
+	min-height: 32vh;
+}
+
+.media-body{
+	padding-left: 1.5%;
+}
+
+.gridContainer{
+	padding-left:5vh;
+	padding-right:5vh;
+}
+
+.cardWidth{
+	width:18rem;
+	min-width: 300;
+}
+
+.center{
+	margin: 0 auto;
+	align-self: center;
+}
+
+
+
