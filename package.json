@@ -1,5 +1,8 @@
 {
-  "start":"node server.js",
+  "start": "node server.js",
+  "postinstall": "npm run production",
+  "heroku-prebuild": "npm install -f",
+  "heroku-postbuild": "npm run production",
   "name": "falvesinc",
   "version": "0.1.0",
   "private": true,
