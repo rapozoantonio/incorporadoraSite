@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 //import {Link} from "react-router-dom"; add <Link></Link> to sending msg
 
 function ContactForm() {
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -15,7 +16,7 @@ function ContactForm() {
     const templateID = "template_jykhh8e";
     const userID = "user_pACoYcBG2ky4dcTZhP6yQ";
 
-    
+
     emailjs
       .sendForm(
         serviceID,
@@ -31,15 +32,7 @@ function ContactForm() {
           console.log(error.text);
         }
       );
-  }
 
-  const [isLoading, setLoading] = useState(false);
-
-  const[isSuccess, setSuccess] = useState(false);
-
-  const sendForm = () => {
-    
-   
       setSuccess(false);
       setLoading(true);
 
@@ -51,11 +44,13 @@ function ContactForm() {
           setSuccess(false);
       },2500)
       },1000)
+  }
 
-  };
+  const [isLoading, setLoading] = useState(false);
 
+  const[isSuccess, setSuccess] = useState(false);
 
-    
+  
   return (
     <div className="col-md-5 mb-3 mt-3 center">
       <h4>
@@ -99,7 +94,7 @@ function ContactForm() {
         <Button
           className="btn btn-outline-light text-uppercase mt-1 mb-1"
           type="submit"
-          onClick={sendForm}
+          
         >
         <i className="fas fa-paper-plane"> </i>
            Enviar
@@ -108,7 +103,6 @@ function ContactForm() {
         {isLoading &&
         <Button
           className="btn btn-outline-light text-uppercase mt-1 mb-1"
-          type="submit"
           disabled
         >
          <i className="fas fa-spinner fa-spin"></i> Enviando...
@@ -117,7 +111,6 @@ function ContactForm() {
         {isSuccess &&
         <Button
           className="text-uppercase mt-1 mb-1"
-          type="submit"
           variant="success"
           disabled
         
