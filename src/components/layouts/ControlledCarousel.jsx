@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import CarouselFirstImg from "../../img/CAPA_1.png"
-import CarouselSecondImg from "../../img/CAPA_2.png"
-import CarouselThirdImg from "../../img/CAPA_3.png"
+import CarouselFirstImg from "../../img/CAPA_1.png";
+import CarouselSecondImg from "../../img/CAPA_2.png";
+import CarouselThirdImg from "../../img/CAPA_3.png";
 import Button from "react-bootstrap/Button";
-
+import Image from "react-bootstrap/Image";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -16,14 +16,14 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className="py-1" controls="true">
       <Carousel.Item>
-        <img
+        <Image
           className="img d-block w-100"
           src={CarouselFirstImg}
           alt="Falves Logo"
         />
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <Image
           className="img d-block w-100"
           src={CarouselSecondImg}
           alt="Bay View Maraú"
@@ -40,7 +40,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
+        <Image
           className="img d-block w-100"
           src={CarouselThirdImg}
           alt="Nole Piratininga"
