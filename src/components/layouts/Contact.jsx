@@ -14,7 +14,7 @@ function Contact() {
             <div className="col-md-7 mt-3">
               <iframe
                 title="falvesLocation"
-                src="https://www.google.com.br/maps/d/u/1/embed?mid=11PG2H6Eydp1Km3oBE2N9ZwGmkX4O1hUX" 
+                src="https://www.google.com/maps/d/u/1/embed?mid=11PG2H6Eydp1Km3oBE2N9ZwGmkX4O1hUX"
                 style={{
                   border: "0",
                   width: "100%",

@@ -145,12 +145,12 @@ a:hover {
 }
 
 .btn-opacity{
-	opacity:60% !important;
+	/*opacity:60% !important;*/
 
 }
 
 .btn-opacity:hover{
-	opacity: 100% !important;
+	/*opacity: 100% !important;*/
 
 }
 
