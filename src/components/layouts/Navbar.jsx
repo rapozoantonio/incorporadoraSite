@@ -65,9 +65,6 @@ function Navbar(props) {
               >
                 <i className="fab fa-instagram"></i>
               </ReactBootstrap.Nav.Link>
-              <ReactBootstrap.Nav.Link eventKey={2} href="#memes">
-                <i className="fab fa-whatsapp"></i>
-              </ReactBootstrap.Nav.Link>
             </ReactBootstrap.Nav>
           </ReactBootstrap.Navbar.Collapse>
         </ReactBootstrap.Navbar>
