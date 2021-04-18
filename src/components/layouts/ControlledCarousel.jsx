@@ -28,6 +28,7 @@ function ControlledCarousel() {
           src={CarouselSecondImg}
           alt="Bay View Maraú"
         />
+
         <Carousel.Caption>
         <Button
             href="/portfolio/bay-view-marau"

@@ -156,13 +156,13 @@ a:hover {
 
 /* IMAGE */
 .img{
-	opacity: 90%;
+	/*opacity: 90%;*/
 	
 }
 
 .img:hover{
 	transform: scale(1.009);
-	opacity: 100%;
+	/*opacity: 100%;*/
 }
 
 .img-portfolio{
