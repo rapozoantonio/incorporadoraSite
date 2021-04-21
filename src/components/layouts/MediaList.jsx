@@ -10,7 +10,7 @@ function MediaList(props) {
       <Media as="li">
         <FaGlassCheers size={30} className="orange"/>
         <Media.Body>
-          <h3>Espaço de Lazer</h3>
+          <h3>Características Únicas</h3>
           <p>{props.uniqueFeat}</p>
         </Media.Body>
       </Media>
@@ -18,15 +18,15 @@ function MediaList(props) {
       <Media as="li">
       <BsGeo size={30} className="orange"/>
         <Media.Body>
-          <h3>Unidades:</h3>
-          <p>{props.nUnidades}</p>
+          <h3>Tipologia e Número de Unidades</h3>
+          <p>{props.nUnidades} unidades <br /> {props.tipologia}</p>
         </Media.Body>
       </Media>
       <Media as="li">
       <BsColumnsGap size={25} className="orange"/>
         <Media.Body>
-          <h3>Área Total: {props.areaTotal}</h3>
-          <p>{props.tipologia}</p>
+          <h3>Área Privativa</h3>
+          <p>{props.areaPrivativa}</p>
         </Media.Body>
       </Media>
     </ul>

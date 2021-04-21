@@ -54,7 +54,7 @@ const portfolio = [
     video: video_id1,
     isDisabled: "",
     uniqueFeat:"De frente para a Baia de Camamu e próximo ao centro de Barra Grande. Exclusivo e sofistifcado. Área de lazer completa e estacionamento privativo.",
-    areaTotal: "6.043,91 m²",
+    areaPrivativa: "95 a 110 m²",
     nUnidades:24,
     tipologia:"3 quartos"
   },
@@ -72,7 +72,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"Próximo as piscinas naturais, o Dreamland está localizado na Praia de Tiapu de Fora - Barra Grande. Possui restaurante próprio, piscina, estacionamento privativo, espaço gourmet, serviços, academia e spa.",
-    areaTotal: "1650 m²",
+    areaPrivativa: "78 a 85 m²",
     nUnidades:20,
     tipologia:"2 quartos"
   },
@@ -90,7 +90,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"Quarta e sala tradicional, prático e confortável. Localização estratégica: de um lado a praia, do outro a lagoa de Piratininga.",
-    areaTotal:"720 m²",
+    areaPrivativa:"45 m²",
     nUnidades:36,
     tipologia:"Quarto e sala"
   },
@@ -109,7 +109,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"No Centro de Maricá, ligando as duas principais ruas da cidade. Estacionamento exclusivo para clientes e lojistas. Local ideal para o seu negócio.",
-    areaTotal:"3.300 m²",
+    areaPrivativa:"28 a 55 m²",
     nUnidades:36,
     tipologia:"Loja"
   },*/
@@ -127,7 +127,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"No Centro histórico de Ilhéus  e próximo aos principais pontos turísticos da cidade. Localização estrtágica para o seu negócio.",
-    areaTotal: "680 m²",
+    areaPrivativa: "23 a 250 m²",
     nUnidades:31,
     tipologia:"Loja"
   },
@@ -144,7 +144,7 @@ const portfolio = [
     video: video_id6,
     isDisabled: "",
     uniqueFeat:"Próximo ao Centro de Barra Grande e aos principais pontos turísticos e gastronomicos da Peninsula de Maraú. Piscina, academia, espaço gourmet e estacionamento privativo. A poucos metros da praia e da Baia de Camamu..",
-    areaTotal:"5.677,20 m²",
+    areaPrivativa:"52 a 76 m²",
     nUnidades:44,
     tipologia:"2 e 3 quartos"
   },
@@ -162,7 +162,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"Infraestrutura, conforto e tranquilidade. Estacionamento privativo, portaria 24h, garden privativo, espaço de lazer com piscina e sauna. Área Gourmet e espaço Fitness.",
-    areaTotal:"8.532 m²",
+    areaPrivativa:"110 m²",
     nUnidades:24,
     tipologia:"4 quartos"
   },
@@ -181,7 +181,7 @@ const portfolio = [
     video: "",
     isDisabled: "true",
     uniqueFeat:"",
-    areaTotal:"",
+    areaPrivativa:"",
     nUnidades:"",
     tipologia:"",
   }, */
