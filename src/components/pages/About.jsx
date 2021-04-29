@@ -35,7 +35,7 @@ function About() {
             tempos e novos negócios.
           </p>
           <p>
-            <Button size="lg" blockhref="/#Lançamentos" block className="mt-5">
+            <Button size="lg" href="/#Lançamentos" block className="mt-5">
               LANÇAMENTOS
             </Button>
           </p>
@@ -44,8 +44,9 @@ function About() {
           <Col sm>
           
             <Media>
-              <Media.Body> 
-                <h2><GiOnTarget size={30} className="orange" />Missão</h2>
+              <Media.Body>
+                <GiOnTarget size={40} className="orange" /> 
+                <h2>Missão</h2>
                 <p>
                   Buscar continuamente a satisfação de nossos parceiros, com
                   projetos inteligentes e criativos para o mercado imobiliário
@@ -62,7 +63,8 @@ function About() {
             <Media>
               
               <Media.Body>
-                <h2><FaRegEye size={25} className="orange" />Visão</h2>
+                <FaRegEye size={40} className="orange" />
+                <h2>Visão</h2>
                 <p>
                   Ser reconhecida no mercado imobiliário, pela excelência e
                   valor agregado, nas regiões de atuação.
@@ -75,8 +77,11 @@ function About() {
             <Media>
               
               <Media.Body>
-                <h2><MdAccountBalance size={25} className="orange" />Valores</h2>
-                <ul style={{listStyleType: "none"}}><li>Responsabilidade</li><li>Transparência</li><li>Foco em resultados</li></ul>
+                <MdAccountBalance size={40} className="orange" />
+                <h2>Valores</h2>
+                <p>Responsabilidade</p>
+                <p>Transparência</p>
+                <p>Foco em resultados</p>
               </Media.Body>
             </Media>
           </Col>

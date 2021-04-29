@@ -14,17 +14,17 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect} className="py-1" controls="true">
+    <Carousel activeIndex={index} onSelect={handleSelect} className="py-1" controls={true}>
       <Carousel.Item>
         <Image
-          className="img d-block w-100"
+          className="img d-block w-100 img-carousel"
           src={CarouselFirstImg}
           alt="Falves Logo"
         />
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="img d-block w-100"
+          className="img d-block w-100 img-carousel"
           src={CarouselSecondImg}
           alt="Bay View Maraú"
         />
@@ -42,7 +42,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="img d-block w-100"
+          className="img d-block w-100 img-carousel"
           src={CarouselThirdImg}
           alt="Nole Piratininga"
           

@@ -7,6 +7,7 @@ import Home from "./components/pages/Home.jsx";
 import About from "./components/pages/About.jsx";
 import Portfolio from "./components/pages/Portfolio.jsx";
 import NotFoundPage from "./components/pages/NotFoundPage.jsx";
+import Category from "./components/pages/PortfolioCategory.jsx";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/portfolio/:portfolioKebabTitle" component={Portfolio}/>
+        <Route path="/portfolio-category" component={Category} />
         <Route component={NotFoundPage}/>   
       </Switch>
  

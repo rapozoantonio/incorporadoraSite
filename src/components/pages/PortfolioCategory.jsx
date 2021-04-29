@@ -14,38 +14,25 @@ import "../../App.css";
 import { Grid } from "@material-ui/core";
 //import { makeStyles } from "@material-ui/core/styles";
 //import styled from "styled-components";
+import Button from "@material-ui/core/Button";
+import ButtonGroup from "@material-ui/core/ButtonGroup";
 
-function Home() {
+function Category() {
   return (
     <div>
       <Navbar />
-      <ControlledCarousel />
-      <div className="">
-        <h2 className="text-center mt-2 mb-2" id="Lançamentos">
-          EMPREENDIMENTOS
-        </h2>
-        <Grid
-          container
-          spacing={0}
-          directions="columns"
-          alignItems="center"
-          justify="center"
-        >
-          {portfolios.map((portfolio) => {
-            return (
-              <CardPortfolio
-                {...portfolio}
-                key={portfolio.id}
-                alt={portfolio.title}
-              />
-            );
-          })}
-        </Grid>
-        <Contact />
-      </div>
+      <ButtonGroup
+        variant="text"
+        color="primary"
+        aria-label="text primary button group"
+      >
+        <Button>COMERCIAL</Button>
+        <Button>RESIDENCIAL</Button>
+        
+      </ButtonGroup>
       <Footer />
     </div>
   );
 }
 
-export default Home;
+export default Category;

@@ -1,4 +1,4 @@
-import React, {useState, Component} from "react";
+import React, {useState} from "react";
 import "../../App.css";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
@@ -12,17 +12,13 @@ function ContactForm() {
   function sendEmail(e) {
     e.preventDefault();
 
-    const serviceID = "gmail";
-    const templateID = "template_jykhh8e";
-    const userID = "user_pACoYcBG2ky4dcTZhP6yQ";
-
 
     emailjs
       .sendForm(
-        serviceID,
-        templateID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         e.target,
-        userID
+        process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => {

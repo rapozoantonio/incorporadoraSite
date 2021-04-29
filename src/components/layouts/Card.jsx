@@ -9,26 +9,19 @@ import { Grid } from "@material-ui/core";
 
 function CardPortfolio(props) {
   return (
-    <Grid
-      item
-      xs={12}
-      sm={6}
-      md={4}
-      lg={4}
-      xl={3}
-      className="mb-3"
-    >
-      <Card className="cardWidth">
+
+      <Card className="cardWidth  card-width mb-4 ml-4 mr-4">
         <Link to={"/portfolio/" + _.kebabCase(props.title)}>
           <Card.Img
-            className="img"
+            className="img img-card"
             variant="top"
             src={props.srcCard}
             alt={props.title}
             href={"/portfolio/" + _.kebabCase(props.title)}
           />
         </Link>
-        <Card.Body>
+        <Card.Body
+          className="img-card">
           <Card.Title>{props.title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             <FaMapMarkerAlt size={15} />
@@ -45,7 +38,7 @@ function CardPortfolio(props) {
           </Button>
         </Card.Body>
       </Card>
-    </Grid>
+
   );
 }
 
