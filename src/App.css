@@ -162,7 +162,7 @@ a:hover {
 }
 
 .img-carousel {
-  height: 85vh;
+  height: 85vh !important;
 }
 
 .img:hover {
@@ -177,7 +177,7 @@ a:hover {
 
 .img-about {
   width: 100%;
-  height: 30vh;
+  height: 49vh !important;
 }
 
 .logo-img {
