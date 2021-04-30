@@ -35,17 +35,22 @@ function About() {
             tempos e novos negócios.
           </p>
           <p>
-            <Button size="lg" href="/#Lançamentos" block className="mt-5">
+            <Button
+              size="lg"
+              href="/#Lançamentos"
+              block
+              className="mt-5"
+              variant="outline-light"
+            >
               LANÇAMENTOS
             </Button>
           </p>
         </div>
         <Row className="mt-5 text-center">
           <Col sm>
-          
             <Media>
               <Media.Body>
-                <GiOnTarget size={40} className="orange" /> 
+                <GiOnTarget size={40} className="orange" />
                 <h2>Missão</h2>
                 <p>
                   Buscar continuamente a satisfação de nossos parceiros, com
@@ -59,9 +64,7 @@ function About() {
             </Media>
           </Col>
           <Col sm>
-          
             <Media>
-              
               <Media.Body>
                 <FaRegEye size={40} className="orange" />
                 <h2>Visão</h2>
@@ -73,9 +76,7 @@ function About() {
             </Media>
           </Col>
           <Col sm>
-          
             <Media>
-              
               <Media.Body>
                 <MdAccountBalance size={40} className="orange" />
                 <h2>Valores</h2>
@@ -86,7 +87,6 @@ function About() {
             </Media>
           </Col>
         </Row>
-        
       </div>
       <Contact />
       <Footer />

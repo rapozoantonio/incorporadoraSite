@@ -31,8 +31,9 @@ function Portfolio(portfolio) {
                 <p className="locationSizeP">
                   <FaMapMarkerAlt /> {portfolio.subtitle}{" "}
                 </p>
-                <div className="mt-3 mr-1">
+                <div className="mt-3 mr-1 mb-2">
                   <Button
+                    variant="outline-light"
                     className="mr-3"
                     size="lg"
                     href={portfolio.book}
@@ -42,6 +43,8 @@ function Portfolio(portfolio) {
                     VER PROJETO
                   </Button>
                   <Button
+                    style={{display: portfolio.isShow}}
+                    variant="outline-light"
                     className="mb-4 mr-3"
                     href={portfolio.video}
                     target="_blank"

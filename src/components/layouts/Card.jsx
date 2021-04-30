@@ -9,7 +9,16 @@ import { Grid } from "@material-ui/core";
 
 function CardPortfolio(props) {
   return (
-
+      <Grid 
+      xs={12} 
+      md={6} 
+      lg={4}
+      container
+      spacing={0}
+      directions="columns"
+      alignItems="center"
+      justify="center"
+      >
       <Card className="cardWidth  card-width mb-4 ml-4 mr-4">
         <Link to={"/portfolio/" + _.kebabCase(props.title)}>
           <Card.Img
@@ -38,6 +47,7 @@ function CardPortfolio(props) {
           </Button>
         </Card.Body>
       </Card>
+      </Grid>
 
   );
 }

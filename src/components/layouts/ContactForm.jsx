@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import "../../App.css";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
+import NumberFormat from "react-number-format";
 //import CheckIcon from "@material-ui/icons/Check";
 //mport ReCAPTCHA from "react-google-recaptcha";
 
@@ -62,12 +63,13 @@ function ContactForm() {
           />
         </div>
         <div className="form-group">
-          <input
-            type="tel"
-            className="form-control"
-            name="contact_number"
-            placeholder="Telefone para Contato"
-          />
+        <NumberFormat 
+          format="+55 (##) ###-###-###" 
+          placeholder="Telefone para Contato"
+          name="contact_number"
+          className="form-control"
+          type="tel"
+        />
         </div>
         <div className="form-group">
           <input

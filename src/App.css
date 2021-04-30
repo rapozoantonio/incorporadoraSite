@@ -142,7 +142,7 @@ a:hover {
 .btn:hover {
   background-color: var(--mainOrange) !important;
   color: var(--mainWhite) !important;
-  transform: scale(1.015);
+  transform: scale(1.005);
   border-style: none !important;
   border: 0px !important;
   outline: none !important;

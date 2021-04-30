@@ -31,6 +31,7 @@ function ControlledCarousel() {
 
         <Carousel.Caption>
         <Button
+            variant="outline-light"
             href="/portfolio/bay-view-marau"
             size="lg"
             className="btn-opacity"
@@ -49,6 +50,7 @@ function ControlledCarousel() {
         />
         <Carousel.Caption>
         <Button
+            variant="outline-light"
             href="/portfolio/no-le-piratininga"
             size="lg"
             className="btn-opacity"
