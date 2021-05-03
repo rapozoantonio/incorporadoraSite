@@ -65,7 +65,7 @@ function ContactForm() {
         <div className="form-group">
         <NumberFormat 
           format="+55 (##) ###-###-###" 
-          placeholder="Telefone para Contato"
+          placeholder="Telefone"
           name="contact_number"
           className="form-control"
           type="tel"

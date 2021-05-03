@@ -31,10 +31,11 @@ function Portfolio(portfolio) {
                 <p className="locationSizeP">
                   <FaMapMarkerAlt /> {portfolio.subtitle}{" "}
                 </p>
-                <div className="mt-3 mr-1 mb-2">
+                <div className="mb-5">
+                <div className="mt-3 mr-1 mb-5">
                   <Button
                     variant="outline-light"
-                    className="mr-3"
+                    className="mr-3 mb-2"
                     size="lg"
                     href={portfolio.book}
                     target="_blank"
@@ -54,7 +55,7 @@ function Portfolio(portfolio) {
                     VÍDEO
                   </Button>
                 </div>
-
+                </div>
                 <Row>
                   <Col sm={8}>
                     <ControlledTabsPortfolio {...portfolio} />

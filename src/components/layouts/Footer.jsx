@@ -50,7 +50,7 @@ function Footer(props) {
                   </li>
                   <li>
                     <b>Endereço:</b> R. Miguel de Frias, 77 - Icaraí, Niterói -
-                    RJ, 24220-008
+                    RJ, <span className="no-wrap">24220-008</span>
                   </li>
                   <li>
                     <b>Telefone:</b> (21) 2620-4488
@@ -109,8 +109,8 @@ function Footer(props) {
                 </ul>
               </div>
             </div>
-            <div className="footer-bottom">
-              <p className="text-xs-center text-center">
+            <div className="footer-bottom mt-5">
+              <p className="text-xs-center text-center mt-5">
                 Made with <FaReact /> by Antonio Candido Rapozo from{" "}
                 <GiBrazil />
               </p>

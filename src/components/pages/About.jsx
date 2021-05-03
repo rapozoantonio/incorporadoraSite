@@ -19,7 +19,7 @@ function About() {
     <div>
       <Navbar />
       <Image className="img-about" src={JumboBgImg} fluid />
-      <div className="ml-5 mr-5 mt-3">
+      <div className="ml-5 mr-5 mt-3 mb-5">
         <div className="text-center">
           <h1 className="mt-3">A FALVES</h1>
           <p>
