@@ -34,6 +34,7 @@ function Portfolio(portfolio) {
                 <div className="mb-5">
                 <div className="mt-3 mr-1 mb-5">
                   <Button
+                    style={{display: portfolio.isShowBook}}
                     variant="outline-light"
                     className="mr-3 mb-2"
                     size="lg"
@@ -44,7 +45,7 @@ function Portfolio(portfolio) {
                     VER PROJETO
                   </Button>
                   <Button
-                    style={{display: portfolio.isShow}}
+                    style={{display: portfolio.isShowVideo}}
                     variant="outline-light"
                     className="mb-4 mr-3"
                     href={portfolio.video}

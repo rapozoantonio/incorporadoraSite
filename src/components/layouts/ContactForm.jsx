@@ -55,7 +55,7 @@ function ContactForm() {
       </h4>
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="form-group">
-          <input
+          <input required
             type="text"
             className="form-control"
             name="user_name"
@@ -63,7 +63,7 @@ function ContactForm() {
           />
         </div>
         <div className="form-group">
-        <NumberFormat 
+        <NumberFormat required
           format="+55 (##) ###-###-###" 
           placeholder="Telefone"
           name="contact_number"
@@ -72,7 +72,7 @@ function ContactForm() {
         />
         </div>
         <div className="form-group">
-          <input
+          <input required
             type="email"
             className="form-control"
             name="user_email"
@@ -80,7 +80,7 @@ function ContactForm() {
           />
         </div>
         <div className="form-group">
-          <textarea
+          <textarea required
             className="form-control"
             name="message"
             cols="30"

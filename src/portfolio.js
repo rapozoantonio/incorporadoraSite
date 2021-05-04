@@ -5,7 +5,8 @@ import imgCard_id3 from "./img/Card-img/NOLE_286x180px.jpg";
 import imgCard_id5 from "./img/Card-img/VINTAGE_MALL_286x180px.jpg";
 import imgCard_id6 from "./img/Card-img/VIVA_BARRA_286x180px.jpg";
 import imgCard_id7 from "./img/Card-img/VIVA_BÚZIOS_286x180px.jpg";
-// import imgCard_id8 from "./img/Card-img/TESLA_286x180px.jpg
+// import imgCard_id8 from "./img/Card-img/TESLA_286x180px.jpg";
+import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
 
 // Jumbotron Images
 import imgJumbotron_id1 from "./img/Jumbotron-img/BAY_VIEW_975x728px.png";
@@ -15,7 +16,8 @@ import imgJumbotron_id3 from "./img/Jumbotron-img/NOLE_975x728px.png";
 import imgJumbotron_id5 from "./img/Jumbotron-img/VINTAGE_MALL_975x728px.png";
 import imgJumbotron_id6 from "./img/Jumbotron-img/VIVA_BARRA_975x728px.png";
 import imgJumbotron_id7 from "./img/Jumbotron-img/VIVA_BÚZIOS_975x728px.png";
-// import imgJumbotron_id8 from "./img/Jumbotron-img/TESLA_975x728px.png"
+// import imgJumbotron_id8 from "./img/Jumbotron-img/TESLA_975x728px.png";
+import imgJumbotron_id9 from "./img/Jumbotron-img/PREAMAR_975x728px.png";
 
 // Books
 
@@ -27,6 +29,7 @@ import book_id5 from "./books/VINTAGE_MALL_BOOK.pdf";
 import book_id6 from "./books/VIVA_BARRA_BOOK.pdf";
 import book_id7 from "./books/VIVA_BÚZIOS_BOOK.pdf";
 //import book_id8 from "./books/TESLA_BOOK.pdf";
+//import video_id9 from "./videos/PREAMAR_VIDEO.mp4"
 
 // Videos
 
@@ -38,6 +41,7 @@ import video_id1 from "./videos/BAY_VIEW_VIDEO.mp4";
 import video_id6 from "./videos/VIVA_BARRA_VIDEO.mp4";
 //import video_id7 from "./videos/VIVA_BÚZIOS_VIDEO.mp4"
 //import video_id8 from "./videos/TESLA_VIDEO.mp4"
+//import video_id9 from "./videos/PREAMAR_VIDEO.mp4"
 
 const portfolio = [
   {
@@ -52,7 +56,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id1,
     book: book_id1,
     video: video_id1,
-    isShow: "",
+    isShowBook:"",
+    isShowVideo: "",
     uniqueFeat:"De frente para a Baia de Camamu e próximo ao centro de Barra Grande. Exclusivo e sofistifcado. Área de lazer completa e estacionamento privativo.",
     areaPrivativa: "95 a 110 m²",
     nUnidades:24,
@@ -70,7 +75,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id2,
     book: book_id2,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"Próximo as piscinas naturais, o Dreamland está localizado na Praia de Tiapu de Fora - Barra Grande. Possui restaurante próprio, piscina, estacionamento privativo, espaço gourmet, serviços, academia e spa.",
     areaPrivativa: "78 a 85 m²",
     nUnidades:20,
@@ -88,7 +94,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id3,
     book: book_id3,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"Quarta e sala tradicional, prático e confortável. Localização estratégica: de um lado a praia, do outro a lagoa de Piratininga.",
     areaPrivativa:"45 m²",
     nUnidades:36,
@@ -107,7 +114,8 @@ const portfolio = [
     srcJumbo: "",
     book: book_id4,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"No Centro de Maricá, ligando as duas principais ruas da cidade. Estacionamento exclusivo para clientes e lojistas. Local ideal para o seu negócio.",
     areaPrivativa:"28 a 55 m²",
     nUnidades:36,
@@ -125,7 +133,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id5,
     book: book_id5,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"No Centro histórico de Ilhéus  e próximo aos principais pontos turísticos da cidade. Localização estrtágica para o seu negócio.",
     areaPrivativa: "23 a 250 m²",
     nUnidades:31,
@@ -142,7 +151,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id6,
     book: book_id6,
     video: video_id6,
-    isShow: "",
+    isShowBook:"",
+    isShowVideo: "",
     uniqueFeat:"Próximo ao Centro de Barra Grande e aos principais pontos turísticos e gastronomicos da Peninsula de Maraú. Piscina, academia, espaço gourmet e estacionamento privativo. A poucos metros da praia e da Baia de Camamu..",
     areaPrivativa:"52 a 76 m²",
     nUnidades:44,
@@ -160,7 +170,8 @@ const portfolio = [
     srcJumbo: imgJumbotron_id7,
     book: book_id7,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"Infraestrutura, conforto e tranquilidade. Estacionamento privativo, portaria 24h, garden privativo, espaço de lazer com piscina e sauna. Área Gourmet e espaço Fitness.",
     areaPrivativa:"110 m²",
     nUnidades:24,
@@ -179,12 +190,32 @@ const portfolio = [
     srcJumbo: "",
     book: book_id8,
     video: "",
-    isShow: "none",
+    isShowBook:"",
+    isShowVideo: "none",
     uniqueFeat:"",
     areaPrivativa:"",
     nUnidades:"",
     tipologia:"",
   }, */
+  {
+    id: 9,
+    title: "Preamar Residence",
+    subtitle: "Barra Grande - Maraú - BA",
+    description:
+      "À ser definido....",
+    srcMap:
+    "https://www.google.com.br/maps/d/u/1/embed?mid=1lZAPq9ds5r4cfQPQuZrnMzoXQzpGTB1K",
+    srcCard: imgCard_id9,
+    srcJumbo: imgJumbotron_id9,
+    book: "",
+    video: "",
+    isShowBook:"none",
+    isShowVideo: "none",
+    uniqueFeat:"Próximo ao Centro de Barra Grande e aos principais pontos turísticos e gastronômicos da Peninsula de Maraú.  Possui piscina, churrasqueira e estacionamento privativo. A poucos metros das praias do Centro e Baia de Camamu.",
+    areaPrivativa:"45 a 55 m²",
+    nUnidades:16,
+    tipologia:"quarto e sala"
+  }
 ];
 
 export default portfolio;
