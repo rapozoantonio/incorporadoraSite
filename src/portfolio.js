@@ -9,15 +9,15 @@ import imgCard_id7 from "./img/Card-img/VIVA_BÚZIOS_286x180px.jpg";
 import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
 
 // Jumbotron Images
-import imgJumbotron_id1 from "./img/Jumbotron-img/BAY_VIEW_975x728px.png";
-import imgJumbotron_id2 from "./img/Jumbotron-img/DREAMLAND_975x728px.png";
-import imgJumbotron_id3 from "./img/Jumbotron-img/NOLE_975x728px.png";
-// import imgJumbotron_id4 from "./img/Jumbotron-img/TRAVESSA_MARICA_975x728px.png"
-import imgJumbotron_id5 from "./img/Jumbotron-img/VINTAGE_MALL_975x728px.png";
-import imgJumbotron_id6 from "./img/Jumbotron-img/VIVA_BARRA_975x728px.png";
-import imgJumbotron_id7 from "./img/Jumbotron-img/VIVA_BÚZIOS_975x728px.png";
-// import imgJumbotron_id8 from "./img/Jumbotron-img/TESLA_975x728px.png";
-import imgJumbotron_id9 from "./img/Jumbotron-img/PREAMAR_975x728px.png";
+import imgJumbotron_id1 from "./img/Jumbotron-img/BAY_VIEW_975x600px.png";
+import imgJumbotron_id2 from "./img/Jumbotron-img/DREAMLAND_975x600px.png";
+import imgJumbotron_id3 from "./img/Jumbotron-img/NOLE_975x600px.png";
+// import imgJumbotron_id4 from "./img/Jumbotron-img/TRAVESSA_MARICA_975x600px.png"
+import imgJumbotron_id5 from "./img/Jumbotron-img/VINTAGE_MALL_975x600px.png";
+import imgJumbotron_id6 from "./img/Jumbotron-img/VIVA_BARRA_975x600px.png";
+import imgJumbotron_id7 from "./img/Jumbotron-img/VIVA_BÚZIOS_975x600px.png";
+// import imgJumbotron_id8 from "./img/Jumbotron-img/TESLA_975x600px.png";
+import imgJumbotron_id9 from "./img/Jumbotron-img/PREAMAR_975x600px.png";
 
 // Books
 
@@ -202,7 +202,7 @@ const portfolio = [
     title: "Preamar Residence",
     subtitle: "Barra Grande - Maraú - BA",
     description:
-      "À ser definido....",
+      "Localizado estrategicamente em um terreno de 900m² muito bem localizado, na saída do íer e com lateral para o Boulevard da Barra, o Preamar Residence conta com 16 unidades amplas distribuídas em 2 pavimentos, com áreas que vão de 46m² à 76,8m². O empreendimento possui estacionamento privativo e espaço de lazer com churrasqueira e piscina, proporcionando total conforto, segurança e praticidade. As unidades do segundo pavimento possuem pé direito maior.",
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=1lZAPq9ds5r4cfQPQuZrnMzoXQzpGTB1K",
     srcCard: imgCard_id9,

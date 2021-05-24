@@ -10,7 +10,7 @@ import "../../App.css";
 import { FaRegEye } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
-import JumboBgImg from "../../img/CAPA_1.png";
+import JumboBgImg from "../../img/SOBRE.png";
 import Image from "react-bootstrap/Image";
 import Contact from "../layouts/Contact.jsx";
 
