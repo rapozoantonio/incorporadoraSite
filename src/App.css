@@ -113,6 +113,10 @@ a:hover {
   white-space: nowrap;
 }
 
+.credits-font-size{
+  font-size:0.5rem !important;
+}
+
 /*NAVBAR */
 
 .nav-link {
@@ -176,7 +180,12 @@ a:hover {
 
 .img-portfolio {
   width: 100%;
-  height: 60vh;
+  height: 100% !important;
+}
+
+.img-auto{
+  height: auto;
+  width: auto;
 }
 
 .img-about {
@@ -215,3 +224,4 @@ body {
 .card-width {
   max-width: 300px;
 }
+

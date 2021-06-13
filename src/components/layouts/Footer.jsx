@@ -33,6 +33,8 @@ function Footer(props) {
     ul li a:hover {
       color: var(--mainDark);
       transform: scale(1.1) !important;
+
+
     }
   `;
   return (
@@ -110,7 +112,7 @@ function Footer(props) {
               </div>
             </div>
             <div className="footer-bottom mt-5">
-              <p className="text-xs-center text-center mt-5">
+              <p className="text-xs-center text-center mt-5 credits-font-size">
                 Made with <FaReact /> by Antonio Candido Rapozo from{" "}
                 <GiBrazil />
               </p>
