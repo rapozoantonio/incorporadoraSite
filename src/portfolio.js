@@ -7,6 +7,7 @@ import imgCard_id6 from "./img/Card-img/VIVA_BARRA_286x180px.jpg";
 import imgCard_id7 from "./img/Card-img/VIVA_BÚZIOS_286x180px.jpg";
 // import imgCard_id8 from "./img/Card-img/TESLA_286x180px.jpg";
 import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
+import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
 
 // Port Images
 
@@ -130,18 +131,18 @@ import imgPortXXXM_id9 from "./img/Port-img/PREAMAR_1366X460.png";
 import imgPortXS_id9 from "./img/Port-img/PREAMAR_375X400.png";
 import imgPortS_id9 from "./img/Port-img/PREAMAR_360X384.png";
 
-//import imgPortXXXL_id10 from "./img/Port-img/BOULEVARD_1920X648.png";
+import imgPortXXXL_id10 from "./img/Port-img/BOULEVARD_1920X648.png";
 //import imgPortXXL_id10 from "./img/Port-img/BOULEVARD_1600X540.png";
-//import imgPortXL_id10 from "./img/Port-img/BOULEVARD_1536X518.png";
+import imgPortXL_id10 from "./img/Port-img/BOULEVARD_1536X518.png";
 //import imgPortL_id10 from "./img/Port-img/BOULEVARD_1440X540.png";
-//import imgPortXXXM_id10 from "./img/Port-img/BOULEVARD_1366X460.png";
+import imgPortXXXM_id10 from "./img/Port-img/BOULEVARD_1366X460.png";
 //import imgPortXXM_id10 from "./img/Port-img/BOULEVARD_1360X460.png";
 //import imgPortXM_id10 from "./img/Port-img/BOULEVARD_412X549.png";
 //import imgPortM_id10 from "./img/Port-img/BOULEVARD_412X535.png";
 //import imgPortXXXS_id10 from "./img/Port-img/BOULEVARD_412X521.png";
 //import imgPortXXS_id10 from "./img/Port-img/BOULEVARD_393X510.png";
-//import imgPortXS_id10 from "./img/Port-img/BOULEVARD_375X400.png";
-//import imgPortS_id10 from "./img/Port-img/BOULEVARD_360X384.png";
+import imgPortXS_id10 from "./img/Port-img/BOULEVARD_375X400.png";
+import imgPortS_id10 from "./img/Port-img/BOULEVARD_360X384.png";
 
 
 // Books
@@ -155,7 +156,7 @@ import book_id6 from "./books/VIVA_BARRA_BOOK.pdf";
 import book_id7 from "./books/VIVA_BÚZIOS_BOOK.pdf";
 //import book_id8 from "./books/TESLA_BOOK.pdf";
 //import video_id9 from "./videos/PREAMAR_BOOK.pdf"
-//import video_id10 from "./videos/BOULEVARD_BOOK.pdf"
+import book_id10 from "./books/BOULEVARD_BOOK.pdf"
 
 // Videos
 
@@ -394,28 +395,21 @@ const portfolio = [
     nUnidades:16,
     tipologia:"quarto e sala"
   },
-  /* {
+  {
     id: 10,
     title: "Boulevard Barra Grande",
     subtitle: "Barra Grande - Maraú - BA",
     description:
-      "Lorem Ipsum.",
+      "Novo Shopping no Centro de Barra Grande. O empreendimento foi planejado para atender com excelência o seu negócio, garantindo comodidade, tranquilidade e segurança.",
     srcMap:
-    "",
+    "https://www.google.com.br/maps/d/embed?mid=1on-lWpR_DudaGcXc3jM6MO2dACeMUmUs",
     srcCard: imgCard_id10,
     srcPortXXXL: imgPortXXXL_id10,
-    srcPortXXL: imgPortXXL_id10,
     srcPortXL: imgPortXL_id10,
-    srcPortL: imgPortL_id10,
     srcPortXXXM: imgPortXXXM_id10,
-    srcPortXXM: imgPortXXM_id10,
-    srcPortXM: imgPortXM_id10,
-    srcPortM: imgPortM_id10,
-    srcPortXXXS: imgPortXXXS_id10,
-    srcPortXXS: imgPortXXS_id10,
     srcPortXS: imgPortXS_id10,
     srcPortS: imgPortS_id10,
-    book: "",
+    book: book_id10,
     video: "",
     isShowBook:"none",
     isShowVideo: "none",
@@ -423,7 +417,7 @@ const portfolio = [
     areaPrivativa:"18 a 45 m²",
     nUnidades:24,
     tipologia:"quarto e sala"
-  },*/
+  },
 ];
 
 export default portfolio;
