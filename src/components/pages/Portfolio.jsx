@@ -28,12 +28,12 @@ function Portfolio(portfolio) {
               <div className="">
                 <div className="">
                 <picture>
-                     <source media="(max-width: 360px)" srcSet={portfolio.srcPortS}/>
-                     <source media="(max-width: 375px)" srcSet={portfolio.srcPortXS}/>
-                     <source media="(max-width: 1366px)" srcSet={portfolio.srcPortXXXM}/>
-                     <source media="(max-width: 1536px)" srcSet={portfolio.srcPortXL}/>
-                     <source media="(max-width: 1920px)" srcSet={portfolio.srcPortXXXL}/>               
-                      <img src={portfolio.srcPortXXXL} alt="Portfolio"/>
+                     <source media="(max-width: 393px)" srcSet={portfolio.srcPortXXS}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXXS}/>
+                     <source media="(max-width: 1360px)" srcSet={portfolio.srcPortXXM}/>
+                     <source media="(max-width: 1440px)" srcSet={portfolio.srcPortL}/>
+                     <source media="(max-width: 1600px)" srcSet={portfolio.srcPortXXL}/>               
+                      <img src={portfolio.srcPortXXL} alt="Portfolio"/>
                     </picture> 
                 </div>
               </div>
