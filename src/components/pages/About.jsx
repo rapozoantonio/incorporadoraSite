@@ -14,15 +14,15 @@ import { MdAccountBalance } from "react-icons/md";
 //import imgAboutXS from "../../img/SOBRE_375X400.png";
 
 // IMPLEMENT OTHER SIZES IN PRODUCTION 
-import imgAboutXXS from "../../img/SOBRE_393X510.png";
-import imgAboutXXXS from "../../img/SOBRE_412X521.png";
-//import imgAboutM from "../../img/SOBRE_412X535.png";
-//import imgAboutXM from "../../img/SOBRE_412X549.png";
-import imgAboutXXM from "../../img/SOBRE_1360X460.png";
+//import imgAboutXXS from "../../img/SOBRE_393X510.png";
+//import imgAboutXXXS from "../../img/SOBRE_412X521.png";
+import imgAboutM from "../../img/SOBRE_412X535.png";
+import imgAboutXM from "../../img/SOBRE_412X549.png";
+//import imgAboutXXM from "../../img/SOBRE_1360X460.png";
 //import imgAboutXXXM from "../../img/SOBRE_1366X460.png";
-import imgAboutL from "../../img/SOBRE_1440X540.png";
+//import imgAboutL from "../../img/SOBRE_1440X540.png";
 //import imgAboutXL from "../../img/SOBRE_1536X518.png";
-import imgAboutXXL from "../../img/SOBRE_1600X540.png";
+//import imgAboutXXL from "../../img/SOBRE_1600X540.png";
 //import imgAboutXXXL from "../../img/SOBRE_1920X648.png";
 import Contact from "../layouts/Contact.jsx";
 
@@ -31,12 +31,9 @@ function About() {
     <div>
       <Navbar />
       <picture className="img-about">
-                     <source media="(max-width: 393px)" srcSet={imgAboutXXXS}/>
-                     <source media="(max-width: 412px)" srcSet={imgAboutXXS}/>
-                     <source media="(max-width: 1360px)" srcSet={imgAboutXXM}/>
-                     <source media="(max-width: 1440px)" srcSet={imgAboutL}/>
-                     <source media="(max-width: 1600px)" srcSet={imgAboutXXL}/>               
-                      <img src={imgAboutXXL} alt="About-Picture"/>
+                     <source media="(max-width: 412px)" srcSet={imgAboutXM}/>
+                     <source media="(max-width: 412px)" srcSet={imgAboutM}/>               
+                      <img src={imgAboutXM} alt="About-Picture"/>
                     </picture> 
 
       <div className="ml-5 mr-5 mt-3 mb-5">
