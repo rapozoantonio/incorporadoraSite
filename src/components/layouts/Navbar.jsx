@@ -34,7 +34,7 @@ function Navbar(props) {
             <ReactBootstrap.Nav className="mr-auto"></ReactBootstrap.Nav>
 
             <ReactBootstrap.Nav>
-              <ReactBootstrap.Nav.Link className="nav-link" href="/about">
+              <ReactBootstrap.Nav.Link className="nav-link" href="/sobre">
                 SOBRE
               </ReactBootstrap.Nav.Link>
               <ReactBootstrap.NavDropdown
@@ -44,7 +44,7 @@ function Navbar(props) {
                 {portfolio.map((props) => {
                   return (
                     <ReactBootstrap.NavDropdown.Item
-                      href={"/portfolio/" + _.kebabCase(props.title)
+                      href={"/empreendimentos/" + _.kebabCase(props.title)
                       }
                     >
                       {props.title}
@@ -63,6 +63,7 @@ function Navbar(props) {
               <ReactBootstrap.Nav.Link
                 href="https://www.instagram.com/falves.inc/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-instagram"></i>
               </ReactBootstrap.Nav.Link>

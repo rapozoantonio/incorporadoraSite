@@ -70,13 +70,13 @@ function Footer(props) {
                     <a href="/">Página Inicial</a>
                   </li>
                   <li>
-                    <a href="/about">Sobre</a>
+                    <a href="/sobre">Sobre</a>
                   </li>
                   <li>
-                    <a href="/#Fale-Conosco">Fale Conosco</a>
+                    <a href="/Fale-Conosco">Fale Conosco</a>
                   </li>
                   <li>
-                    <a href="/#Lançamentos">Lançamentos</a>
+                    <a href="/Lançamentos">Lançamentos</a>
                   </li>
                 </ul>
               </div>
@@ -103,7 +103,7 @@ function Footer(props) {
                     <a
                       href="https://www.instagram.com/falves.inc/"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <i className="fab fa-instagram"></i> Instagram
                     </a>

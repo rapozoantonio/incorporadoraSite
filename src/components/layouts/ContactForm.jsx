@@ -3,10 +3,8 @@ import "../../App.css";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
 import NumberFormat from "react-number-format";
-//import CheckIcon from "@material-ui/icons/Check";
 //mport ReCAPTCHA from "react-google-recaptcha";
 
-//import {Link} from "react-router-dom"; add <Link></Link> to sending msg
 
 function ContactForm() {
 
