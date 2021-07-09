@@ -21,7 +21,7 @@ function Home() {
       <Navbar />
       <ControlledCarousel />
       <div className="">
-        <h2 className="text-center mt-2 mb-2" id="Lançamentos">
+        <h2 className="text-center mt-2 mb-2" id="lançamentos">
           EMPREENDIMENTOS
         </h2>
         <Grid

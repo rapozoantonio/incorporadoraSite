@@ -20,13 +20,13 @@ function CardPortfolio(props) {
       justify="center"
       >
       <Card className="cardWidth  card-width mb-4 ml-4 mr-4">
-        <Link to={"/portfolio/" + _.kebabCase(props.title)}>
+        <Link to={"/empreendimentos/" + _.kebabCase(props.title)}>
           <Card.Img
             className="img img-card"
             variant="top"
             src={props.srcCard}
             alt={props.title}
-            href={"/portfolio/" + _.kebabCase(props.title)}
+            href={"/empreendimentos/" + _.kebabCase(props.title)}
           />
         </Link>
         <Card.Body
@@ -39,7 +39,7 @@ function CardPortfolio(props) {
           <Card.Text>{props.description.slice(0, 80)}...</Card.Text>
           <Button
             variant="outline-light"
-            href={"/portfolio/" + _.kebabCase(props.title)}
+            href={"/empreendimentos/" + _.kebabCase(props.title)}
             block
         
           >

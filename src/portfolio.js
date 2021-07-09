@@ -14,44 +14,44 @@ import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
 // IMPLEMENT OTHER SIZES IN PRODUCTION 
 
 
-//import imgPortXXXL_id1 from "./img/Port-img/BAY_VIEW_1920X648.png";
-//import imgPortXXL_id1 from "./img/Port-img/BAY_VIEW_1600X540.png";
-//import imgPortXL_id1 from "./img/Port-img/BAY_VIEW_1536X518.png";
-//import imgPortL_id1 from "./img/Port-img/BAY_VIEW_1440X540.png";
-//import imgPortXXXM_id1 from "./img/Port-img/BAY_VIEW_1366X460.png";
-//import imgPortXXM_id1 from "./img/Port-img/BAY_VIEW_1360X460.png";
+import imgPortXXXL_id1 from "./img/Port-img/BAY_VIEW_1920X648.png";
+import imgPortXXL_id1 from "./img/Port-img/BAY_VIEW_1600X540.png";
+import imgPortXL_id1 from "./img/Port-img/BAY_VIEW_1536X518.png";
+import imgPortL_id1 from "./img/Port-img/BAY_VIEW_1440X540.png";
+import imgPortXXXM_id1 from "./img/Port-img/BAY_VIEW_1366X460.png";
+import imgPortXXM_id1 from "./img/Port-img/BAY_VIEW_1360X460.png";
 import imgPortXM_id1 from "./img/Port-img/BAY_VIEW_412X549.png";
 import imgPortM_id1 from "./img/Port-img/BAY_VIEW_412X535.png";
-//import imgPortXXXS_id1 from "./img/Port-img/BAY_VIEW_412X521.png";
-//import imgPortXXS_id1 from "./img/Port-img/BAY_VIEW_393X510.png";
-//import imgPortXS_id1 from "./img/Port-img/BAY_VIEW_375X400.png";
-//import imgPortS_id1 from "./img/Port-img/BAY_VIEW_360X384.png";
+import imgPortXXXS_id1 from "./img/Port-img/BAY_VIEW_412X521.png";
+import imgPortXXS_id1 from "./img/Port-img/BAY_VIEW_393X510.png";
+import imgPortXS_id1 from "./img/Port-img/BAY_VIEW_375X400.png";
+import imgPortS_id1 from "./img/Port-img/BAY_VIEW_360X384.png";
 
-////import imgPortXXXL_id2 from "./img/Port-img/DREAMLAND_1920X648.png";
-//import imgPortXXL_id2 from "./img/Port-img/DREAMLAND_1600X540.png";
-////import imgPortXL_id2 from "./img/Port-img/DREAMLAND_1536X518.png";
-//import imgPortL_id2 from "./img/Port-img/DREAMLAND_1440X540.png";
-////import imgPortXXXM_id2 from "./img/Port-img/DREAMLAND_1366X460.png";
-//import imgPortXXM_id2 from "./img/Port-img/DREAMLAND_1360X460.png";
+import imgPortXXXL_id2 from "./img/Port-img/DREAMLAND_1920X648.png";
+import imgPortXXL_id2 from "./img/Port-img/DREAMLAND_1600X540.png";
+import imgPortXL_id2 from "./img/Port-img/DREAMLAND_1536X518.png";
+import imgPortL_id2 from "./img/Port-img/DREAMLAND_1440X540.png";
+import imgPortXXXM_id2 from "./img/Port-img/DREAMLAND_1366X460.png";
+import imgPortXXM_id2 from "./img/Port-img/DREAMLAND_1360X460.png";
 import imgPortXM_id2 from "./img/Port-img/DREAMLAND_412X549.png";
 import imgPortM_id2 from "./img/Port-img/DREAMLAND_412X535.png";
-//import imgPortXXXS_id2 from "./img/Port-img/DREAMLAND_412X521.png";
-//import imgPortXXS_id2 from "./img/Port-img/DREAMLAND_393X510.png";
-////import imgPortXS_id2 from "./img/Port-img/DREAMLAND_375X400.png";
-//////import imgPortS_id2 from "./img/Port-img/DREAMLAND_360X384.png";
+import imgPortXXXS_id2 from "./img/Port-img/DREAMLAND_412X521.png";
+import imgPortXXS_id2 from "./img/Port-img/DREAMLAND_393X510.png";
+import imgPortXS_id2 from "./img/Port-img/DREAMLAND_375X400.png";
+import imgPortS_id2 from "./img/Port-img/DREAMLAND_360X384.png";
 
-////import imgPortXXXL_id3 from "./img/Port-img/NOLE_1920X648.png";
-//import imgPortXXL_id3 from "./img/Port-img/NOLE_1600X540.png";
-////import imgPortXL_id3 from "./img/Port-img/NOLE_1536X518.png";
-//import imgPortL_id3 from "./img/Port-img/NOLE_1440X540.png";
-////import imgPortXXXM_id3 from "./img/Port-img/NOLE_1366X460.png";
-//import imgPortXXM_id3 from "./img/Port-img/NOLE_1360X460.png";
+import imgPortXXXL_id3 from "./img/Port-img/NOLE_1920X648.png";
+import imgPortXXL_id3 from "./img/Port-img/NOLE_1600X540.png";
+import imgPortXL_id3 from "./img/Port-img/NOLE_1536X518.png";
+import imgPortL_id3 from "./img/Port-img/NOLE_1440X540.png";
+import imgPortXXXM_id3 from "./img/Port-img/NOLE_1366X460.png";
+import imgPortXXM_id3 from "./img/Port-img/NOLE_1360X460.png";
 import imgPortXM_id3 from "./img/Port-img/NOLE_412X549.png";
 import imgPortM_id3 from "./img/Port-img/NOLE_412X535.png";
-//import imgPortXXXS_id3 from "./img/Port-img/NOLE_412X521.png";
-//import imgPortXXS_id3 from "./img/Port-img/NOLE_393X510.png";
-////import imgPortXS_id3 from "./img/Port-img/NOLE_375X400.png";
-////import imgPortS_id3 from "./img/Port-img/NOLE_360X384.png";
+import imgPortXXXS_id3 from "./img/Port-img/NOLE_412X521.png";
+import imgPortXXS_id3 from "./img/Port-img/NOLE_393X510.png";
+import imgPortXS_id3 from "./img/Port-img/NOLE_375X400.png";
+import imgPortS_id3 from "./img/Port-img/NOLE_360X384.png";
 
 //import imgPortXXXL_id4 from "./img/Port-img/TRAVESSA_MARICA_1920X648.png";
 //import imgPortXXL_id4 from "./img/Port-img/TRAVESSA_MARICA_1600X540.png";
@@ -66,44 +66,44 @@ import imgPortM_id3 from "./img/Port-img/NOLE_412X535.png";
 //import imgPortXS_id4 from "./img/Port-img/TRAVESSA_MARICA_375X400.png";
 //import imgPortS_id4 from "./img/Port-img/TRAVESSA_MARICA_360X384.png";
 
-////import imgPortXXXL_id5 from "./img/Port-img/VINTAGE_MALL_1920X648.png";
-//import imgPortXXL_id5 from "./img/Port-img/VINTAGE_MALL_1600X540.png";
-////import imgPortXL_id5 from "./img/Port-img/VINTAGE_MALL_1536X518.png";
-//import imgPortL_id5 from "./img/Port-img/VINTAGE_MALL_1440X540.png";
-////import imgPortXXXM_id5 from "./img/Port-img/VINTAGE_MALL_1366X460.png";
-//import imgPortXXM_id5 from "./img/Port-img/VINTAGE_MALL_1360X460.png";
+import imgPortXXXL_id5 from "./img/Port-img/VINTAGE_MALL_1920X648.png";
+import imgPortXXL_id5 from "./img/Port-img/VINTAGE_MALL_1600X540.png";
+import imgPortXL_id5 from "./img/Port-img/VINTAGE_MALL_1536X518.png";
+import imgPortL_id5 from "./img/Port-img/VINTAGE_MALL_1440X540.png";
+import imgPortXXXM_id5 from "./img/Port-img/VINTAGE_MALL_1366X460.png";
+import imgPortXXM_id5 from "./img/Port-img/VINTAGE_MALL_1360X460.png";
 import imgPortXM_id5 from "./img/Port-img/VINTAGE_MALL_412X549.png";
 import imgPortM_id5 from "./img/Port-img/VINTAGE_MALL_412X535.png";
-//import imgPortXXXS_id5 from "./img/Port-img/VINTAGE_MALL_412X521.png";
-//import imgPortXXS_id5 from "./img/Port-img/VINTAGE_MALL_393X510.png";
-////import imgPortXS_id5 from "./img/Port-img/VINTAGE_MALL_375X400.png";
-////import imgPortS_id5 from "./img/Port-img/VINTAGE_MALL_360X384.png";
+import imgPortXXXS_id5 from "./img/Port-img/VINTAGE_MALL_412X521.png";
+import imgPortXXS_id5 from "./img/Port-img/VINTAGE_MALL_393X510.png";
+import imgPortXS_id5 from "./img/Port-img/VINTAGE_MALL_375X400.png";
+import imgPortS_id5 from "./img/Port-img/VINTAGE_MALL_360X384.png";
 
-////import imgPortXXXL_id6 from "./img/Port-img/VIVA_BARRA_1920X648.png";
-//import imgPortXXL_id6 from "./img/Port-img/VIVA_BARRA_1600X540.png";
-////import imgPortXL_id6 from "./img/Port-img/VIVA_BARRA_1536X518.png";
-//import imgPortL_id6 from "./img/Port-img/VIVA_BARRA_1440X540.png";
-////import imgPortXXXM_id6 from "./img/Port-img/VIVA_BARRA_1366X460.png";
-//import imgPortXXM_id6 from "./img/Port-img/VIVA_BARRA_1360X460.png";
+import imgPortXXXL_id6 from "./img/Port-img/VIVA_BARRA_1920X648.png";
+import imgPortXXL_id6 from "./img/Port-img/VIVA_BARRA_1600X540.png";
+import imgPortXL_id6 from "./img/Port-img/VIVA_BARRA_1536X518.png";
+import imgPortL_id6 from "./img/Port-img/VIVA_BARRA_1440X540.png";
+import imgPortXXXM_id6 from "./img/Port-img/VIVA_BARRA_1366X460.png";
+import imgPortXXM_id6 from "./img/Port-img/VIVA_BARRA_1360X460.png";
 import imgPortXM_id6 from "./img/Port-img/VIVA_BARRA_412X549.png";
 import imgPortM_id6 from "./img/Port-img/VIVA_BARRA_412X535.png";
-//import imgPortXXXS_id6 from "./img/Port-img/VIVA_BARRA_412X521.png";
-//import imgPortXXS_id6 from "./img/Port-img/VIVA_BARRA_393X510.png";
-////import imgPortXS_id6 from "./img/Port-img/VIVA_BARRA_375X400.png";
-////import imgPortS_id6 from "./img/Port-img/VIVA_BARRA_360X384.png";
+import imgPortXXXS_id6 from "./img/Port-img/VIVA_BARRA_412X521.png";
+import imgPortXXS_id6 from "./img/Port-img/VIVA_BARRA_393X510.png";
+import imgPortXS_id6 from "./img/Port-img/VIVA_BARRA_375X400.png";
+import imgPortS_id6 from "./img/Port-img/VIVA_BARRA_360X384.png";
 
-////import imgPortXXXL_id7 from "./img/Port-img/VIVA_BUZIOS_1920X648.png";
-//import imgPortXXL_id7 from "./img/Port-img/VIVA_BUZIOS_1600X540.png";
-////import imgPortXL_id7 from "./img/Port-img/VIVA_BUZIOS_1536X518.png";
-//import imgPortL_id7 from "./img/Port-img/VIVA_BUZIOS_1440X540.png";
-////import imgPortXXXM_id7 from "./img/Port-img/VIVA_BUZIOS_1366X460.png";
-//import imgPortXXM_id7 from "./img/Port-img/VIVA_BUZIOS_1360X460.png";
+import imgPortXXXL_id7 from "./img/Port-img/VIVA_BUZIOS_1920X648.png";
+import imgPortXXL_id7 from "./img/Port-img/VIVA_BUZIOS_1600X540.png";
+import imgPortXL_id7 from "./img/Port-img/VIVA_BUZIOS_1536X518.png";
+import imgPortL_id7 from "./img/Port-img/VIVA_BUZIOS_1440X540.png";
+import imgPortXXXM_id7 from "./img/Port-img/VIVA_BUZIOS_1366X460.png";
+import imgPortXXM_id7 from "./img/Port-img/VIVA_BUZIOS_1360X460.png";
 import imgPortXM_id7 from "./img/Port-img/VIVA_BUZIOS_412X549.png";
 import imgPortM_id7 from "./img/Port-img/VIVA_BUZIOS_412X535.png";
-//import imgPortXXXS_id7 from "./img/Port-img/VIVA_BUZIOS_412X521.png";
-//import imgPortXXS_id7 from "./img/Port-img/VIVA_BUZIOS_393X510.png";
-////import imgPortXS_id7 from "./img/Port-img/VIVA_BUZIOS_375X400.png";
-////import imgPortS_id7 from "./img/Port-img/VIVA_BUZIOS_360X384.png";
+import imgPortXXXS_id7 from "./img/Port-img/VIVA_BUZIOS_412X521.png";
+import imgPortXXS_id7 from "./img/Port-img/VIVA_BUZIOS_393X510.png";
+import imgPortXS_id7 from "./img/Port-img/VIVA_BUZIOS_375X400.png";
+import imgPortS_id7 from "./img/Port-img/VIVA_BUZIOS_360X384.png";
 
 //import imgPortXXXL_id8 from "./img/Port-img/TESLA_1920X648.png";
 //import imgPortXXL_id8 from "./img/Port-img/TESLA_1600X540.png";
@@ -118,60 +118,60 @@ import imgPortM_id7 from "./img/Port-img/VIVA_BUZIOS_412X535.png";
 //import imgPortXS_id8 from "./img/Port-img/TESLA_375X400.png";
 //import imgPortS_id8 from "./img/Port-img/TESLA_360X384.png";
 
-////import imgPortXXXL_id9 from "./img/Port-img/PREAMAR_1920X648.png";
-//import imgPortXXL_id9 from "./img/Port-img/PREAMAR_1600X540.png";
-////import imgPortXL_id9 from "./img/Port-img/PREAMAR_1536X518.png";
-//import imgPortL_id9 from "./img/Port-img/PREAMAR_1440X540.png";
-////import imgPortXXXM_id9 from "./img/Port-img/PREAMAR_1366X460.png";
-//import imgPortXXM_id9 from "./img/Port-img/PREAMAR_1360X460.png";
+import imgPortXXXL_id9 from "./img/Port-img/PREAMAR_1920X648.png";
+import imgPortXXL_id9 from "./img/Port-img/PREAMAR_1600X540.png";
+import imgPortXL_id9 from "./img/Port-img/PREAMAR_1536X518.png";
+import imgPortL_id9 from "./img/Port-img/PREAMAR_1440X540.png";
+import imgPortXXXM_id9 from "./img/Port-img/PREAMAR_1366X460.png";
+import imgPortXXM_id9 from "./img/Port-img/PREAMAR_1360X460.png";
 import imgPortXM_id9 from "./img/Port-img/PREAMAR_412X549.png";
 import imgPortM_id9 from "./img/Port-img/PREAMAR_412X535.png";
-//import imgPortXXXS_id9 from "./img/Port-img/PREAMAR_412X521.png";
-//import imgPortXXS_id9 from "./img/Port-img/PREAMAR_393X510.png";
-////import imgPortXS_id9 from "./img/Port-img/PREAMAR_375X400.png";
-////import imgPortS_id9 from "./img/Port-img/PREAMAR_360X384.png";
+import imgPortXXXS_id9 from "./img/Port-img/PREAMAR_412X521.png";
+import imgPortXXS_id9 from "./img/Port-img/PREAMAR_393X510.png";
+import imgPortXS_id9 from "./img/Port-img/PREAMAR_375X400.png";
+import imgPortS_id9 from "./img/Port-img/PREAMAR_360X384.png";
 
-////import imgPortXXXL_id10 from "./img/Port-img/BOULEVARD_1920X648.png";
-//import imgPortXXL_id10 from "./img/Port-img/BOULEVARD_1600X540.png";
-////import imgPortXL_id10 from "./img/Port-img/BOULEVARD_1536X518.png";
-//import imgPortL_id10 from "./img/Port-img/BOULEVARD_1440X540.png";
-////import imgPortXXXM_id10 from "./img/Port-img/BOULEVARD_1366X460.png";
-//import imgPortXXM_id10 from "./img/Port-img/BOULEVARD_1360X460.png";
+import imgPortXXXL_id10 from "./img/Port-img/BOULEVARD_1920X648.png";
+import imgPortXXL_id10 from "./img/Port-img/BOULEVARD_1600X540.png";
+import imgPortXL_id10 from "./img/Port-img/BOULEVARD_1536X518.png";
+import imgPortL_id10 from "./img/Port-img/BOULEVARD_1440X540.png";
+import imgPortXXXM_id10 from "./img/Port-img/BOULEVARD_1366X460.png";
+import imgPortXXM_id10 from "./img/Port-img/BOULEVARD_1360X460.png";
 import imgPortXM_id10 from "./img/Port-img/BOULEVARD_412X549.png";
 import imgPortM_id10 from "./img/Port-img/BOULEVARD_412X535.png";
-//import imgPortXXXS_id10 from "./img/Port-img/BOULEVARD_412X521.png";
-//import imgPortXXS_id10 from "./img/Port-img/BOULEVARD_393X510.png";
-////import imgPortXS_id10 from "./img/Port-img/BOULEVARD_375X400.png";
-////import imgPortS_id10 from "./img/Port-img/BOULEVARD_360X384.png";
+import imgPortXXXS_id10 from "./img/Port-img/BOULEVARD_412X521.png";
+import imgPortXXS_id10 from "./img/Port-img/BOULEVARD_393X510.png";
+import imgPortXS_id10 from "./img/Port-img/BOULEVARD_375X400.png";
+import imgPortS_id10 from "./img/Port-img/BOULEVARD_360X384.png";
 
 
 // Books
 
-import book_id1 from "./books/BAY_VIEW_BOOK.pdf";
-import book_id2 from "./books/DREAMLAND_BOOK.pdf";
-import book_id3 from "./books/NOLE_BOOK.pdf";
-//import book_id4 from "./books/TRAVESSA_MARICA_BOOK.pdf";
-import book_id5 from "./books/VINTAGE_MALL_BOOK.pdf";
-import book_id6 from "./books/VIVA_BARRA_BOOK.pdf";
-import book_id7 from "./books/VIVA_BÚZIOS_BOOK.pdf";
-//import book_id8 from "./books/TESLA_BOOK.pdf";
-//import video_id9 from "./videos/PREAMAR_BOOK.pdf"
-import book_id10 from "./books/BOULEVARD_BOOK.pdf"
+const book_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_BOOK.pdf?alt=media&token=b79a3846-743c-42e2-9266-2eb6fed0ae5e";
+const book_id2 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/DREAMLAND_BOOK.pdf?alt=media&token=b0a473ba-ec40-424b-a934-f458bdfad5e3";
+const book_id3 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/NOLE_BOOK.pdf?alt=media&token=49dbc8a6-2817-4119-8cb1-4adee0f4e5a9";
+//const book_id4 = "";
+const book_id5 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VINTAGE_MALL_BOOK.pdf?alt=media&token=7fb2df21-786b-44b0-97b2-17355f50b217";
+const book_id6 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BARRA_BOOK.pdf?alt=media&token=d2a79f0f-cdca-4eae-b898-f7e8457187bb";
+const book_id7 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_B%C3%9AZIOS_BOOK.pdf?alt=media&token=236b6534-9e1b-4e47-9a47-a0615d15ec0f";
+//const book_id8 = "";
+//const video_id9 = "";
+const book_id10 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BOULEVARD_BOOK.pdf?alt=media&token=829b00db-2b84-4f79-b14e-37a336c4bfc5"
 
 // Videos
 
-import video_id1 from "./videos/BAY_VIEW_VIDEO.mp4";
-//import video_id2 from "./videos/DREAMLAND_VIDEO.mp4"
-//import video_id3 from "./videos/NOLE_VIDEO.mp4"
-//import video_id4 from "./videos/TRAVESSA_MARICA_VIDEO.mp4"
-//import video_id5 from "./videos/VINTAGE_MALL_VIDEO.mp4"
-import video_id6 from "./videos/VIVA_BARRA_VIDEO.mp4";
-//import video_id7 from "./videos/VIVA_BÚZIOS_VIDEO.mp4"
-//import video_id8 from "./videos/TESLA_VIDEO.mp4"
-//import video_id9 from "./videos/PREAMAR_VIDEO.mp4"
-//import video_id10 from "./videos/PREAMAR_VIDEO.mp4"
+const video_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_VIDEO.mp4?alt=media&token=a122473b-edb7-43ce-89e5-61e394153e04";
+//const video_id2 = "./videos/DREAMLAND_VIDEO.mp4"
+//const video_id3 = "./videos/NOLE_VIDEO.mp4"
+//const video_id4 = "./videos/TRAVESSA_MARICA_VIDEO.mp4"
+//const video_id5 = "./videos/VINTAGE_MALL_VIDEO.mp4"
+const video_id6 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BARRA_VIDEO.mp4?alt=media&token=3793cd25-8548-403d-83c1-648b7e69e0eb";
+//const video_id7 = "./videos/VIVA_BÚZIOS_VIDEO.mp4"
+//const video_id8 = "./videos/TESLA_VIDEO.mp4"
+//const video_id9 = "./videos/PREAMAR_VIDEO.mp4"
+//const video_id10 = "./videos/PREAMAR_VIDEO.mp4"
 
-const portfolio = [
+const portfolios = [
   {
     id: 1,
     title: "Bay View Maraú",
@@ -181,18 +181,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=16IYdq_huWMtnI8WX7EUF5k2liFZ9Gezf",
     srcCard: imgCard_id1,
-    //srcPortXXXL: imgPortXXXL_id1,
-    //srcPortXL: imgPortXL_id1,
-    //srcPortXXXM: imgPortXXXM_id1,
-    //srcPortXS: imgPortXS_id1,
-    //srcPortS: imgPortS_id1,
-    //srcPortXXL: imgPortXXL_id1,
-    //srcPortL:imgPortL_id1,
-    //srcPortXXM:imgPortXXM_id1,
+    srcPortXXXL: imgPortXXXL_id1,
+    srcPortXL: imgPortXL_id1,
+    srcPortXXXM: imgPortXXXM_id1,
+    srcPortXS: imgPortXS_id1,
+    srcPortS: imgPortS_id1,
+    srcPortXXL: imgPortXXL_id1,
+    srcPortL:imgPortL_id1,
+    srcPortXXM:imgPortXXM_id1,
     srcPortXM: imgPortXM_id1,
     srcPortM: imgPortM_id1,
-    //srcPortXXXS:imgPortXXXS_id1,
-    //srcPortXXS:imgPortXXS_id1,
+    srcPortXXXS:imgPortXXXS_id1,
+    srcPortXXS:imgPortXXS_id1,
     book: book_id1,
     video: video_id1,
     isShowBook:"",
@@ -211,19 +211,19 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=1U9J5Tl9h5n2h93WiJdYrVRXlf26RtCHg",
     srcCard: imgCard_id2,
-    //srcPortXXXL: imgPortXXXL_id2,
-    //srcPortXL: imgPortXL_id2,
-    //srcPortXXXM: imgPortXXXM_id2,
-    //srcPortXS: imgPortXS_id2,
-    //srcPortS: imgPortS_id2,
-    //srcPortXXL: imgPortXXL_id2,
-    //srcPortL:imgPortL_id2,
-    //srcPortXXM:imgPortXXM_id2,
+    srcPortXXXL: imgPortXXXL_id2,
+    srcPortXL: imgPortXL_id2,
+    srcPortXXXM: imgPortXXXM_id2,
+    srcPortXS: imgPortXS_id2,
+    srcPortS: imgPortS_id2,
+    srcPortXXL: imgPortXXL_id2,
+    srcPortL:imgPortL_id2,
+    srcPortXXM:imgPortXXM_id2,
     srcPortXM: imgPortXM_id2,
     srcPortM: imgPortM_id2,
-    //srcPortXXXS:imgPortXXXS_id2,
-    //srcPortXXS:imgPortXXS_id2,
-    book: book_id2,
+    srcPortXXXS:imgPortXXXS_id2,
+    srcPortXXS:imgPortXXS_id2,
+    ok: book_id2,
     video: "",
     isShowBook:"",
     isShowVideo: "none",
@@ -241,18 +241,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=13VCiLyVOwFzeiY2oV4A6p1wdbnRIKErz",
     srcCard: imgCard_id3,
-    //srcPortXXXL: imgPortXXXL_id3,
-    //srcPortXL: imgPortXL_id3,
-    //srcPortXXXM: imgPortXXXM_id3,
-    //srcPortXS: imgPortXS_id3,
-    //srcPortS: imgPortS_id3,
-    //srcPortXXL: imgPortXXL_id3,
-    //srcPortL:imgPortL_id3,
-    //srcPortXXM:imgPortXXM_id3,
+    srcPortXXXL: imgPortXXXL_id3,
+    srcPortXL: imgPortXL_id3,
+    srcPortXXXM: imgPortXXXM_id3,
+    srcPortXS: imgPortXS_id3,
+    srcPortS: imgPortS_id3,
+    srcPortXXL: imgPortXXL_id3,
+    srcPortL:imgPortL_id3,
+    srcPortXXM:imgPortXXM_id3,
     srcPortXM: imgPortXM_id3,
     srcPortM: imgPortM_id3,
-   //srcPortXXXS:imgPortXXXS_id3,
-    //srcPortXXS:imgPortXXS_id3,
+    srcPortXXXS:imgPortXXXS_id3,
+    srcPortXXS:imgPortXXS_id3,
     book: book_id3,
     video: "",
     isShowBook:"",
@@ -302,18 +302,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=1tf6SkBVU9fliPVHoXODuuk_fq_Aq-Llx",
     srcCard: imgCard_id5,
-    //srcPortXXXL: imgPortXXXL_id5,
-    //srcPortXL: imgPortXL_id5,
-    //srcPortXXXM: imgPortXXXM_id5,
-    //srcPortXS: imgPortXS_id5,
-    //srcPortS: imgPortS_id5,
-    //srcPortXXL: imgPortXXL_id5,
-    //srcPortL:imgPortL_id5,
-    //srcPortXXM:imgPortXXM_id5,
+    srcPortXXXL: imgPortXXXL_id5,
+    srcPortXL: imgPortXL_id5,
+    srcPortXXXM: imgPortXXXM_id5,
+    srcPortXS: imgPortXS_id5,
+    srcPortS: imgPortS_id5,
+    srcPortXXL: imgPortXXL_id5,
+    srcPortL:imgPortL_id5,
+    srcPortXXM:imgPortXXM_id5,
     srcPortXM: imgPortXM_id5,
     srcPortM: imgPortM_id5,
-    //srcPortXXXS:imgPortXXXS_id5,
-    //srcPortXXS:imgPortXXS_id5,
+    srcPortXXXS:imgPortXXXS_id5,
+    srcPortXXS:imgPortXXS_id5,
     book: book_id5,
     video: "",
     isShowBook:"",
@@ -332,18 +332,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=1YfzcouqP__Y3SvJbdWaD7UQIgpQ318LJ" ,    
     srcCard: imgCard_id6,
-    //srcPortXXXL: imgPortXXXL_id6,
-    //srcPortXL: imgPortXL_id6,
-    //srcPortXXXM: imgPortXXXM_id6,
-    //srcPortXS: imgPortXS_id6,
-    //srcPortS: imgPortS_id6,
-    //srcPortXXL: imgPortXXL_id6,
-    //srcPortL:imgPortL_id6,
-    //srcPortXXM:imgPortXXM_id6,
+    srcPortXXXL: imgPortXXXL_id6,
+    srcPortXL: imgPortXL_id6,
+    srcPortXXXM: imgPortXXXM_id6,
+    srcPortXS: imgPortXS_id6,
+    srcPortS: imgPortS_id6,
+    srcPortXXL: imgPortXXL_id6,
+    srcPortL:imgPortL_id6,
+    srcPortXXM:imgPortXXM_id6,
     srcPortXM: imgPortXM_id6,
     srcPortM: imgPortM_id6,
-    //srcPortXXXS:imgPortXXXS_id6,
-    //srcPortXXS:imgPortXXS_id6,
+    srcPortXXXS:imgPortXXXS_id6,
+    srcPortXXS:imgPortXXS_id6,
     book: book_id6,
     video: video_id6,
     isShowBook:"",
@@ -362,18 +362,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=16ufpD2ys6UB8HRzRUeDfECZ5jRWLkYr8" ,
     srcCard: imgCard_id7,
-    //srcPortXXXL: imgPortXXXL_id7,
-    //srcPortXL: imgPortXL_id7,
-    //srcPortXXXM: imgPortXXXM_id7,
-    //srcPortXS: imgPortXS_id7,
-    //srcPortS: imgPortS_id7,
-    //srcPortXXL: imgPortXXL_id7,
-    //srcPortL:imgPortL_id7,
-    //srcPortXXM:imgPortXXM_id7,
+    srcPortXXXL: imgPortXXXL_id7,
+    srcPortXL: imgPortXL_id7,
+    srcPortXXXM: imgPortXXXM_id7,
+    srcPortXS: imgPortXS_id7,
+    srcPortS: imgPortS_id7,
+    srcPortXXL: imgPortXXL_id7,
+    srcPortL:imgPortL_id7,
+    srcPortXXM:imgPortXXM_id7,
     srcPortXM: imgPortXM_id7,
     srcPortM: imgPortM_id7,
-    //srcPortXXXS:imgPortXXXS_id7,
-    //srcPortXXS:imgPortXXS_id7,
+    srcPortXXXS:imgPortXXXS_id7,
+    srcPortXXS:imgPortXXS_id7,
     book: book_id7,
     video: "",
     isShowBook:"",
@@ -423,18 +423,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/u/1/embed?mid=1lZAPq9ds5r4cfQPQuZrnMzoXQzpGTB1K",
     srcCard: imgCard_id9,
-    //srcPortXXXL: imgPortXXXL_id9,
-    //srcPortXL: imgPortXL_id9,
-    //srcPortXXXM: imgPortXXXM_id9,
-    //srcPortXS: imgPortXS_id9,
-    //srcPortS: imgPortS_id9,
-    //srcPortXXL: imgPortXXL_id9,
-    //srcPortL:imgPortL_id9,
-    //srcPortXXM:imgPortXXM_id9,
+    srcPortXXXL: imgPortXXXL_id9,
+    srcPortXL: imgPortXL_id9,
+    srcPortXXXM: imgPortXXXM_id9,
+    srcPortXS: imgPortXS_id9,
+    srcPortS: imgPortS_id9,
+    srcPortXXL: imgPortXXL_id9,
+    srcPortL:imgPortL_id9,
+    srcPortXXM:imgPortXXM_id9,
     srcPortXM: imgPortXM_id9,
     srcPortM: imgPortM_id9,
-    //srcPortXXXS:imgPortXXXS_id9,
-    //srcPortXXS:imgPortXXS_id9,
+    srcPortXXXS:imgPortXXXS_id9,
+    srcPortXXS:imgPortXXS_id9,
     book: "",
     video: "",
     isShowBook:"none",
@@ -453,18 +453,18 @@ const portfolio = [
     srcMap:
     "https://www.google.com.br/maps/d/embed?mid=1on-lWpR_DudaGcXc3jM6MO2dACeMUmUs",
     srcCard: imgCard_id10,
-    //srcPortXXXL: imgPortXXXL_id10,
-    //srcPortXL: imgPortXL_id10,
-    //srcPortXXXM: imgPortXXXM_id10,
-    //srcPortXS: imgPortXS_id10,
-    //srcPortS: imgPortS_id10,
-    //srcPortXXL: imgPortXXL_id10,
-    //srcPortL:imgPortL_id10,
-    //srcPortXXM:imgPortXXM_id10,
+    srcPortXXXL: imgPortXXXL_id10,
+    srcPortXL: imgPortXL_id10,
+    srcPortXXXM: imgPortXXXM_id10,
+    srcPortXS: imgPortXS_id10,
+    srcPortS: imgPortS_id10,
+    srcPortXXL: imgPortXXL_id10,
+    srcPortL:imgPortL_id10,
+    srcPortXXM:imgPortXXM_id10,
     srcPortXM: imgPortXM_id10,
     srcPortM: imgPortM_id10,
-    //srcPortXXXS:imgPortXXXS_id10,
-    //srcPortXXS:imgPortXXS_id10,
+    srcPortXXXS:imgPortXXXS_id10,
+    srcPortXXS:imgPortXXS_id10,
     book: book_id10,
     video: "",
     isShowBook:"none",
@@ -476,4 +476,4 @@ const portfolio = [
   },
 ];
 
-export default portfolio;
+export default portfolios;

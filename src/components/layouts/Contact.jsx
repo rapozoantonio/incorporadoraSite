@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm.jsx";
 
 function Contact() {
   return (
-    <div className="" id="Fale-Conosco">
+    <div className="" id="fale-conosco">
       <div className="mt-3 ml-5 mr-4">
         <div className="well well-sm">
           <h2>NOSSA LOCALIZAÇÃO</h2>

@@ -4,14 +4,14 @@ import { BsColumnsGap } from "react-icons/bs";
 import { BsGeo } from "react-icons/bs";
 import {FaGlassCheers} from "react-icons/fa";
 
-function MediaList(props) {
+function MediaList(portfolio) {
   return (
     <ul className="list-unstyled">
       <Media as="li">
         <FaGlassCheers size={30} className="orange"/>
         <Media.Body>
           <h3>Características Únicas</h3>
-          <p>{props.uniqueFeat}</p>
+          <p>{portfolio.uniqueFeat}</p>
         </Media.Body>
       </Media>
 
@@ -19,14 +19,14 @@ function MediaList(props) {
       <BsGeo size={30} className="orange"/>
         <Media.Body>
           <h3>Tipologia e Número de Unidades</h3>
-          <p>{props.nUnidades} unidades <br /> {props.tipologia}</p>
+          <p>{portfolio.nUnidades} unidades <br /> {portfolio.tipologia}</p>
         </Media.Body>
       </Media>
       <Media as="li">
       <BsColumnsGap size={25} className="orange"/>
         <Media.Body>
           <h3>Área Privativa</h3>
-          <p>{props.areaPrivativa}</p>
+          <p>{portfolio.areaPrivativa}</p>
         </Media.Body>
       </Media>
     </ul>

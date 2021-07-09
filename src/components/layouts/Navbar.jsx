@@ -1,7 +1,7 @@
 import React from "react";
 import * as ReactBootstrap from "react-bootstrap";
 import styled from "styled-components";
-import portfolio from "../../portfolio.js";
+import portfolios from "../../portfolio.js";
 import _ from "lodash";
 import "../../App.css";
 import Logo from "../../img/logo_full_fosco_120x38.png";
@@ -34,35 +34,37 @@ function Navbar(props) {
             <ReactBootstrap.Nav className="mr-auto"></ReactBootstrap.Nav>
 
             <ReactBootstrap.Nav>
-              <ReactBootstrap.Nav.Link className="nav-link" href="/about">
+              <ReactBootstrap.Nav.Link className="nav-link" href="/sobre">
                 SOBRE
               </ReactBootstrap.Nav.Link>
               <ReactBootstrap.NavDropdown
                 title="EMPREENDIMENTOS"
                 id="collasible-nav-dropdown"
               >
-                {portfolio.map((props) => {
+                {portfolios.map((portfolio) => {
                   return (
                     <ReactBootstrap.NavDropdown.Item
-                      href={"/portfolio/" + _.kebabCase(props.title)
+                      key={portfolio.id}
+                      href={"/empreendimentos/" + _.kebabCase(portfolio.title)
                       }
                     >
-                      {props.title}
+                      {portfolio.title}
                     </ReactBootstrap.NavDropdown.Item>
                   );
                 })}
                 <ReactBootstrap.NavDropdown.Divider />
-                <ReactBootstrap.NavDropdown.Item href="/#Lançamentos">
+                <ReactBootstrap.NavDropdown.Item href="/#lançamentos">
                   Lançamentos
                 </ReactBootstrap.NavDropdown.Item>
               </ReactBootstrap.NavDropdown>
-              <ReactBootstrap.Nav.Link href="/#Fale-Conosco">
+              <ReactBootstrap.Nav.Link href="/#fale-conosco">
                 CONTATO
               </ReactBootstrap.Nav.Link>
 
               <ReactBootstrap.Nav.Link
                 href="https://www.instagram.com/falves.inc/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-instagram"></i>
               </ReactBootstrap.Nav.Link>

@@ -20,7 +20,7 @@ function Portfolio(portfolio) {
       <Navbar />
 
       {portfolios.map((portfolio) => {
-        var kebabTitle = "/portfolio/" + _.kebabCase(portfolio.title);
+        var kebabTitle = "/empreendimentos/" + _.kebabCase(portfolio.title);
 
         if (reqPortfolio === kebabTitle) {
           return (
@@ -28,9 +28,19 @@ function Portfolio(portfolio) {
               <div className="">
                 <div className="">
                 <picture>
-                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortM}/>
-                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXM}/>             
-                      <img src={portfolio.srcPortXM} alt="Portfolio"/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXXL}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXL}/> 
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXL}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortL}/>    
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXXM}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXM}/> 
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXM}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortM}/>  
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXXS}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXXS}/> 
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortXS}/>
+                     <source media="(max-width: 412px)" srcSet={portfolio.srcPortS}/>            
+                      <img src={portfolio.srcPortXXXL} alt="Portfolio"/>
                     </picture> 
                 </div>
               </div>

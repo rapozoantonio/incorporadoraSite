@@ -10,20 +10,21 @@ import "../../App.css";
 import { FaRegEye } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
-//import imgAboutS from "../../img/SOBRE_360X384.png";
-//import imgAboutXS from "../../img/SOBRE_375X400.png";
+
 
 // IMPLEMENT OTHER SIZES IN PRODUCTION 
-//import imgAboutXXS from "../../img/SOBRE_393X510.png";
-//import imgAboutXXXS from "../../img/SOBRE_412X521.png";
+import imgAboutS from "../../img/SOBRE_360X384.png";
+import imgAboutXS from "../../img/SOBRE_375X400.png";
+import imgAboutXXS from "../../img/SOBRE_393X510.png";
+import imgAboutXXXS from "../../img/SOBRE_412X521.png";
 import imgAboutM from "../../img/SOBRE_412X535.png";
 import imgAboutXM from "../../img/SOBRE_412X549.png";
-//import imgAboutXXM from "../../img/SOBRE_1360X460.png";
-//import imgAboutXXXM from "../../img/SOBRE_1366X460.png";
-//import imgAboutL from "../../img/SOBRE_1440X540.png";
-//import imgAboutXL from "../../img/SOBRE_1536X518.png";
-//import imgAboutXXL from "../../img/SOBRE_1600X540.png";
-//import imgAboutXXXL from "../../img/SOBRE_1920X648.png";
+import imgAboutXXM from "../../img/SOBRE_1360X460.png";
+import imgAboutXXXM from "../../img/SOBRE_1366X460.png";
+import imgAboutL from "../../img/SOBRE_1440X540.png";
+import imgAboutXL from "../../img/SOBRE_1536X518.png";
+import imgAboutXXL from "../../img/SOBRE_1600X540.png";
+import imgAboutXXXL from "../../img/SOBRE_1920X648.png";
 import Contact from "../layouts/Contact.jsx";
 
 function About() {
@@ -31,9 +32,19 @@ function About() {
     <div>
       <Navbar />
       <picture className="img-about">
-                     <source media="(max-width: 412px)" srcSet={imgAboutXM}/>
-                     <source media="(max-width: 412px)" srcSet={imgAboutM}/>               
-                      <img src={imgAboutXM} alt="About-Picture"/>
+          <source media="(max-width: 1920px)" srcSet={imgAboutXXXL} />
+          <source media="(max-width: 1600px)" srcSet={imgAboutXXL} />
+          <source media="(max-width: 1536px)" srcSet={imgAboutXL} />
+          <source media="(max-width: 1440px)" srcSet={imgAboutL} />
+          <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
+          <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
+          <source media="(max-width: 412px)" srcSet={imgAboutXM} />
+          <source media="(max-width: 412px)" srcSet={imgAboutM} />
+          <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
+          <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
+          <source media="(max-width: 375px)" srcSet={imgAboutXS} />
+          <source media="(max-width: 360px)" srcSet={imgAboutS} />
+          <img src={imgAboutXXXL} alt="About" />
                     </picture> 
 
       <div className="ml-5 mr-5 mt-3 mb-5">
@@ -54,7 +65,7 @@ function About() {
           <p>
             <Button
               size="lg"
-              href="/#Lançamentos"
+              href="/#lançamentos"
               block
               className="mt-5"
               variant="outline-light"

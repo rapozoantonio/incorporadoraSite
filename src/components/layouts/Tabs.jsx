@@ -12,7 +12,7 @@ function ControlledTabsPortfolio(props) {
           <p>
             {props.description}
           </p>
-          <p className="text-underline"><a href={props.book} target="_blank" rel="noopener">Confira o book do empreendimento.</a></p>
+          <p className="text-underline"><a href={props.book} target="_blank" rel="noopener noreferrer">Confira o book do empreendimento.</a></p>
         </Tab>
         <Tab className="mt-5" eventKey="portfolioLocation" title="Localização">
           <iframe
