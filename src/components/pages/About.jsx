@@ -5,7 +5,6 @@ import Col from "react-bootstrap/Col";
 import Media from "react-bootstrap/Media";
 import Footer from "../layouts/Footer.jsx";
 import Navbar from "../layouts/Navbar.jsx";
-//import Newsletter from "../layouts/Newsletter.jsx";
 import "../../App.css";
 import { FaRegEye } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";

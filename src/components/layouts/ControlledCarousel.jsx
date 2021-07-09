@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-
 import Button from "react-bootstrap/Button";
 
 
@@ -90,7 +89,7 @@ function ControlledCarousel() {
           <source media="(max-width: 393px)" srcSet={imgPortXXS_id1} />
           <source media="(max-width: 375px)" srcSet={imgPortXS_id1} />
           <source media="(max-width: 360px)" srcSet={imgPortS_id1} />
-          <img src={imgPortXM_id1} alt="Bay-View-Marau" />
+          <img src={imgPortXXXL_id1} alt="Bay-View-Marau" />
         </picture>
 
         <Carousel.Caption>
@@ -106,18 +105,18 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <picture className="img w-100 img-carousel">
-          <source media="(max-width: 412px)" srcSet={imgPortXXXL_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXL_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXL_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortL_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXXM_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXM_id3} />
+          <source media="(max-width: 1920px)" srcSet={imgPortXXXL_id3} />
+          <source media="(max-width: 1600px)" srcSet={imgPortXXL_id3} />
+          <source media="(max-width: 1536px)" srcSet={imgPortXL_id3} />
+          <source media="(max-width: 1440px)" srcSet={imgPortL_id3} />
+          <source media="(max-width: 1366px)" srcSet={imgPortXXXM_id3} />
+          <source media="(max-width: 1360px)" srcSet={imgPortXXM_id3} />
           <source media="(max-width: 412px)" srcSet={imgPortXM_id3} />
           <source media="(max-width: 412px)" srcSet={imgPortM_id3} />
           <source media="(max-width: 412px)" srcSet={imgPortXXXS_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXS_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXS_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortS_id3} />
+          <source media="(max-width: 393px)" srcSet={imgPortXXS_id3} />
+          <source media="(max-width: 375px)" srcSet={imgPortXS_id3} />
+          <source media="(max-width: 360px)" srcSet={imgPortS_id3} />
           <img src={imgPortXXXL_id3} alt="Nole-Piratininga" />
         </picture>
         <Carousel.Caption>

@@ -2,7 +2,7 @@ import React from "react";
 //import portfolio from "./portfolio.js";
 // React Router import
 import {Switch, Route} from "react-router-dom";
-// Import pages
+// Import pages from components
 import Home from "./components/pages/Home.jsx";
 import About from "./components/pages/About.jsx";
 import Portfolio from "./components/pages/Portfolio.jsx";

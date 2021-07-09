@@ -2,7 +2,6 @@ import React from "react";
 import "../../App.css";
 import ContactForm from "./ContactForm.jsx";
 
-//import {Link} from "react-router-dom"; add <Link></Link> to sending msg
 
 function Contact() {
   return (

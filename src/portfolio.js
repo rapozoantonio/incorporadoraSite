@@ -1,13 +1,13 @@
-import imgCard_id1 from "./img/Card-img/BAY_VIEW_286x180px.jpg";
-import imgCard_id2 from "./img/Card-img/DREAMLAND_286x180px.jpg";
-import imgCard_id3 from "./img/Card-img/NOLE_286x180px.jpg";
-// import imgCard_id4 from "./img/Card-img/TRAVESSA_MARICA_286x180px.jpg
-import imgCard_id5 from "./img/Card-img/VINTAGE_MALL_286x180px.jpg";
-import imgCard_id6 from "./img/Card-img/VIVA_BARRA_286x180px.jpg";
-import imgCard_id7 from "./img/Card-img/VIVA_BÚZIOS_286x180px.jpg";
-// import imgCard_id8 from "./img/Card-img/TESLA_286x180px.jpg";
-import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
-import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
+const imgCard_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_286x180px.jpg?alt=media&token=bd9cfc22-a821-44ae-b2c6-0b43d16700cb";
+const imgCard_id2 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/DREAMLAND_286x180px.jpg?alt=media&token=cd213286-cbd1-4d04-8115-f582048e45c1";
+const imgCard_id3 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/NOLE_286x180px.jpg?alt=media&token=20112f96-75d3-4fb9-a899-5fd0b90bb10d";
+// const imgCard_id4 = "";
+const imgCard_id5 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VINTAGE_MALL_286x180px.jpg?alt=media&token=75c147a7-5bfc-43f0-a5f5-c04ae3ed829d";
+const imgCard_id6 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BARRA_286x180px.jpg?alt=media&token=14f7f7f6-324b-4d8f-98fa-21c7b38b9e86";
+const imgCard_id7 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BU%CC%81ZIOS_286x180px.jpg?alt=media&token=2f6eaffd-0360-47c3-8425-9a02a7c6c16a";
+// const imgCard_id8 = "";
+const imgCard_id9 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/PREAMAR_286x180px.jpg?alt=media&token=81a7c755-3ac9-4260-8b86-b7795271e903";
+const imgCard_id10 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BOULEVARD_286x180px.jpg?alt=media&token=58b54c97-10fe-4a5a-b7d8-aaa750e79099";
 
 // Port Images
 
@@ -53,18 +53,18 @@ import imgPortXXS_id3 from "./img/Port-img/NOLE_393X510.png";
 import imgPortXS_id3 from "./img/Port-img/NOLE_375X400.png";
 import imgPortS_id3 from "./img/Port-img/NOLE_360X384.png";
 
-//import imgPortXXXL_id4 from "./img/Port-img/TRAVESSA_MARICA_1920X648.png";
-//import imgPortXXL_id4 from "./img/Port-img/TRAVESSA_MARICA_1600X540.png";
-//import imgPortXL_id4 from "./img/Port-img/TRAVESSA_MARICA_1536X518.png";
-//import imgPortL_id4 from "./img/Port-img/TRAVESSA_MARICA_1440X540.png";
-//import imgPortXXXM_id4 from "./img/Port-img/TRAVESSA_MARICA_1366X460.png";
-//import imgPortXXM_id4 from "./img/Port-img/TRAVESSA_MARICA_1360X460.png";
-//import imgPortXM_id4 from "./img/Port-img/TRAVESSA_MARICA_412X549.png";
-//import imgPortM_id4 from "./img/Port-img/TRAVESSA_MARICA_412X535.png";
-//import imgPortXXXS_id4 from "./img/Port-img/TRAVESSA_MARICA_412X521.png";
-//import imgPortXXS_id4 from "./img/Port-img/TRAVESSA_MARICA_393X510.png";
-//import imgPortXS_id4 from "./img/Port-img/TRAVESSA_MARICA_375X400.png";
-//import imgPortS_id4 from "./img/Port-img/TRAVESSA_MARICA_360X384.png";
+//const imgPortXXXL_id4 = "";
+//const imgPortXXL_id4 = "";
+//const imgPortXL_id4 = "";
+//const imgPortL_id4 = "";
+//const imgPortXXXM_id4 = "";
+//const imgPortXXM_id4 = "";
+//const imgPortXM_id4 = "";
+//const imgPortM_id4 = "";
+//const imgPortXXXS_id4 = "";
+//const imgPortXXS_id4 = "";
+//const imgPortXS_id4 = "";
+//const imgPortS_id4 = "";
 
 import imgPortXXXL_id5 from "./img/Port-img/VINTAGE_MALL_1920X648.png";
 import imgPortXXL_id5 from "./img/Port-img/VINTAGE_MALL_1600X540.png";
@@ -105,18 +105,18 @@ import imgPortXXS_id7 from "./img/Port-img/VIVA_BUZIOS_393X510.png";
 import imgPortXS_id7 from "./img/Port-img/VIVA_BUZIOS_375X400.png";
 import imgPortS_id7 from "./img/Port-img/VIVA_BUZIOS_360X384.png";
 
-//import imgPortXXXL_id8 from "./img/Port-img/TESLA_1920X648.png";
-//import imgPortXXL_id8 from "./img/Port-img/TESLA_1600X540.png";
-//import imgPortXL_id8 from "./img/Port-img/TESLA_1536X518.png";
-//import imgPortL_id8 from "./img/Port-img/TESLA_1440X540.png";
-//import imgPortXXXM_id8 from "./img/Port-img/TESLA_1366X460.png";
-//import imgPortXXM_id8 from "./img/Port-img/TESLA_1360X460.png";
-//import imgPortXM_id8 from "./img/Port-img/TESLA_412X549.png";
-//import imgPortM_id8 from "./img/Port-img/TESLA_412X535.png";
-//import imgPortXXXS_id8 from "./img/Port-img/TESLA_412X521.png";
-//import imgPortXXS_id8 from "./img/Port-img/TESLA_393X510.png";
-//import imgPortXS_id8 from "./img/Port-img/TESLA_375X400.png";
-//import imgPortS_id8 from "./img/Port-img/TESLA_360X384.png";
+//const imgPortXXXL_id8 = "";
+//const imgPortXXL_id8 = "";
+//const imgPortXL_id8 = "";
+//const imgPortL_id8 = "";
+//const imgPortXXXM_id8 = "";
+//const imgPortXXM_id8 = "";
+//const imgPortXM_id8 = "";
+//const imgPortM_id8 = "";
+//const imgPortXXXS_id8 = "";
+//const imgPortXXS_id8 = "";
+//const imgPortXS_id8 = "";
+//const imgPortS_id8 = "";
 
 import imgPortXXXL_id9 from "./img/Port-img/PREAMAR_1920X648.png";
 import imgPortXXL_id9 from "./img/Port-img/PREAMAR_1600X540.png";
@@ -223,7 +223,7 @@ const portfolios = [
     srcPortM: imgPortM_id2,
     srcPortXXXS:imgPortXXXS_id2,
     srcPortXXS:imgPortXXS_id2,
-    ok: book_id2,
+    book: book_id2,
     video: "",
     isShowBook:"",
     isShowVideo: "none",
