@@ -2,7 +2,6 @@ import React from "react";
 import "../../App.css";
 import ContactForm from "./ContactForm.jsx";
 
-
 function Contact() {
   return (
     <div className="" id="fale-conosco">

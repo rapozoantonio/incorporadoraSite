@@ -8,7 +8,6 @@ import portfolios from "../../portfolio.js";
 import "../../App.css";
 import { Grid } from "@material-ui/core";
 
-
 function Home() {
   return (
     <div>

@@ -29,7 +29,6 @@ function NotFoundPage() {
     .btn {
       margin-right: 10px;
     }
-
   `;
   return (
     <div>

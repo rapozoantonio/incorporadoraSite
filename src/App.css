@@ -109,12 +109,12 @@ a:hover {
   font-size: 2.5rem;
 }
 
-.no-wrap{
+.no-wrap {
   white-space: nowrap;
 }
 
-.credits-font-size{
-  font-size:0.5rem !important;
+.credits-font-size {
+  font-size: 0.5rem !important;
 }
 
 /*NAVBAR */
@@ -183,7 +183,7 @@ a:hover {
   height: 100% !important;
 }
 
-.img-auto{
+.img-auto {
   height: auto;
   width: auto;
 }
@@ -224,4 +224,3 @@ body {
 .card-width {
   max-width: 300px;
 }
-

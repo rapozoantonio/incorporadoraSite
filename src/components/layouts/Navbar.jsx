@@ -45,8 +45,7 @@ function Navbar(props) {
                   return (
                     <ReactBootstrap.NavDropdown.Item
                       key={portfolio.id}
-                      href={"/empreendimentos/" + _.kebabCase(portfolio.title)
-                      }
+                      href={"/empreendimentos/" + _.kebabCase(portfolio.title)}
                     >
                       {portfolio.title}
                     </ReactBootstrap.NavDropdown.Item>

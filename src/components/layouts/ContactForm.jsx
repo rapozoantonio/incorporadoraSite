@@ -1,16 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../../App.css";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
 import NumberFormat from "react-number-format";
 //mport ReCAPTCHA from "react-google-recaptcha";
 
-
 function ContactForm() {
-
   function sendEmail(e) {
     e.preventDefault();
-
 
     emailjs
       .sendForm(
@@ -28,24 +25,23 @@ function ContactForm() {
         }
       );
 
-      setSuccess(false);
-      setLoading(true);
+    setSuccess(false);
+    setLoading(true);
 
-      setTimeout(()=>{
-        setLoading(false);
-        setSuccess(true);
+    setTimeout(() => {
+      setLoading(false);
+      setSuccess(true);
 
-      setTimeout(()=>{
-          setSuccess(false);
-      },2500)
-      },1000)
+      setTimeout(() => {
+        setSuccess(false);
+      }, 2500);
+    }, 1000);
   }
 
   const [isLoading, setLoading] = useState(false);
 
-  const[isSuccess, setSuccess] = useState(false);
+  const [isSuccess, setSuccess] = useState(false);
 
-  
   return (
     <div className="col-md-5 mb-3 mt-3 center">
       <h4>
@@ -53,7 +49,8 @@ function ContactForm() {
       </h4>
       <form className="contact-form" onSubmit={sendEmail}>
         <div className="form-group">
-          <input required
+          <input
+            required
             type="text"
             className="form-control"
             name="user_name"
@@ -61,16 +58,18 @@ function ContactForm() {
           />
         </div>
         <div className="form-group">
-        <NumberFormat required
-          format="+55 (##) ###-###-###" 
-          placeholder="Telefone"
-          name="contact_number"
-          className="form-control"
-          type="tel"
-        />
+          <NumberFormat
+            required
+            format="+55 (##) ###-###-###"
+            placeholder="Telefone"
+            name="contact_number"
+            className="form-control"
+            type="tel"
+          />
         </div>
         <div className="form-group">
-          <input required
+          <input
+            required
             type="email"
             className="form-control"
             name="user_email"
@@ -78,7 +77,8 @@ function ContactForm() {
           />
         </div>
         <div className="form-group">
-          <textarea required
+          <textarea
+            required
             className="form-control"
             name="message"
             cols="30"
@@ -86,34 +86,32 @@ function ContactForm() {
             placeholder="Mensagem"
           />
         </div>
-        {!isLoading && !isSuccess &&
-        <Button
-          className="btn btn-outline-light text-uppercase mt-1 mb-1"
-          type="submit"
-          
-        >
-        <i className="fas fa-paper-plane"> </i>
-           Enviar
-        </Button>
-        }
-        {isLoading &&
-        <Button
-          className="btn btn-outline-light text-uppercase mt-1 mb-1"
-          disabled
-        >
-         <i className="fas fa-spinner fa-spin"></i> Enviando...
-        </Button>
-        }
-        {isSuccess &&
-        <Button
-          className="text-uppercase mt-1 mb-1"
-          variant="success"
-          disabled
-        
-        >
-         <i className="fas fa-check"></i> Enviado!
-        </Button>
-        }
+        {!isLoading && !isSuccess && (
+          <Button
+            className="btn btn-outline-light text-uppercase mt-1 mb-1"
+            type="submit"
+          >
+            <i className="fas fa-paper-plane"> </i>
+            Enviar
+          </Button>
+        )}
+        {isLoading && (
+          <Button
+            className="btn btn-outline-light text-uppercase mt-1 mb-1"
+            disabled
+          >
+            <i className="fas fa-spinner fa-spin"></i> Enviando...
+          </Button>
+        )}
+        {isSuccess && (
+          <Button
+            className="text-uppercase mt-1 mb-1"
+            variant="success"
+            disabled
+          >
+            <i className="fas fa-check"></i> Enviado!
+          </Button>
+        )}
       </form>
     </div>
   );

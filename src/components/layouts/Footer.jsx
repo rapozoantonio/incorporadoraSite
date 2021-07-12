@@ -12,7 +12,6 @@ function Footer(props) {
     .footer-middle {
       padding-top: 3rem;
       color: var(--mainOrange);
-
     }
 
     .footer-bottom {
@@ -33,8 +32,6 @@ function Footer(props) {
     ul li a:hover {
       color: var(--mainDark);
       transform: scale(1.1) !important;
-
-
     }
   `;
   return (
@@ -87,7 +84,9 @@ function Footer(props) {
                   {portfolio.map((props) => {
                     return (
                       <li>
-                        <a href={"/empreendimentos/" + _.kebabCase(props.title)}>
+                        <a
+                          href={"/empreendimentos/" + _.kebabCase(props.title)}
+                        >
                           {props.title}
                         </a>
                       </li>

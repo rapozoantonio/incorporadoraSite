@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-
-//// IMPLEMENT OTHER SIZES IN PRODUCTION 
+//// IMPLEMENT OTHER SIZES IN PRODUCTION
 import imgAboutS from "../../img/SOBRE_360X384.png";
 import imgAboutXS from "../../img/SOBRE_375X400.png";
 import imgAboutXXS from "../../img/SOBRE_393X510.png";
@@ -16,7 +15,6 @@ import imgAboutL from "../../img/SOBRE_1440X540.png";
 import imgAboutXL from "../../img/SOBRE_1536X518.png";
 import imgAboutXXL from "../../img/SOBRE_1600X540.png";
 import imgAboutXXXL from "../../img/SOBRE_1920X648.png";
-
 
 import imgPortXXXL_id1 from "../../img/Port-img/BAY_VIEW_1920X648.png";
 import imgPortXXL_id1 from "../../img/Port-img/BAY_VIEW_1600X540.png";
@@ -60,35 +58,36 @@ function ControlledCarousel() {
     >
       <Carousel.Item>
         <picture className="img w-100 img-carousel">
-          <source media="(max-width: 1920px)" srcSet={imgAboutXXXL} />
-          <source media="(max-width: 1600px)" srcSet={imgAboutXXL} />
-          <source media="(max-width: 1536px)" srcSet={imgAboutXL} />
-          <source media="(max-width: 1440px)" srcSet={imgAboutL} />
-          <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
-          <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutXM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
-          <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
-          <source media="(max-width: 375px)" srcSet={imgAboutXS} />
           <source media="(max-width: 360px)" srcSet={imgAboutS} />
+          <source media="(max-width: 375px)" srcSet={imgAboutXS} />
+          <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
+          <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
+          <source media="(max-width: 412px)" srcSet={imgAboutM} />
+          <source media="(max-width: 412px)" srcSet={imgAboutXM} />
+          <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
+          <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
+          <source media="(max-width: 1440px)" srcSet={imgAboutL} />
+          <source media="(max-width: 1536px)" srcSet={imgAboutXL} />
+          <source media="(max-width: 1600px)" srcSet={imgAboutXXL} />
+          <source media="(max-width: 1920px)" srcSet={imgAboutXXXL} />
           <img src={imgAboutXXXL} alt="About" />
         </picture>
       </Carousel.Item>
       <Carousel.Item>
         <picture className="img w-100 img-carousel">
-          <source media="(max-width: 1920px)" srcSet={imgPortXXXL_id1} />
-          <source media="(max-width: 1600px)" srcSet={imgPortXXL_id1} />
-          <source media="(max-width: 1536px)" srcSet={imgPortXL_id1} />
-          <source media="(max-width: 1440px)" srcSet={imgPortL_id1} />
-          <source media="(max-width: 1366px)" srcSet={imgPortXXXM_id1} />
-          <source media="(max-width: 1360px)" srcSet={imgPortXXM_id1} />
-          <source media="(max-width: 412px)" srcSet={imgPortXM_id1} />
-          <source media="(max-width: 412px)" srcSet={imgPortM_id1} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXXS_id1} />
-          <source media="(max-width: 393px)" srcSet={imgPortXXS_id1} />
-          <source media="(max-width: 375px)" srcSet={imgPortXS_id1} />
           <source media="(max-width: 360px)" srcSet={imgPortS_id1} />
+          <source media="(max-width: 375px)" srcSet={imgPortXS_id1} />
+          <source media="(max-width: 393px)" srcSet={imgPortXXS_id1} />
+          <source media="(max-width: 412px)" srcSet={imgPortXXXS_id1} />
+          <source media="(max-width: 412px)" srcSet={imgPortM_id1} />
+          <source media="(max-width: 412px)" srcSet={imgPortXM_id1} />
+          <source media="(max-width: 1360px)" srcSet={imgPortXXM_id1} />
+          <source media="(max-width: 1366px)" srcSet={imgPortXXXM_id1} />
+          <source media="(max-width: 1440px)" srcSet={imgPortL_id1} />
+          <source media="(max-width: 1536px)" srcSet={imgPortXL_id1} />
+          <source media="(max-width: 1600px)" srcSet={imgPortXXL_id1} />
+          <source media="(max-width: 1920px)" srcSet={imgPortXXXL_id1} />
+
           <img src={imgPortXXXL_id1} alt="Bay-View-Marau" />
         </picture>
 
@@ -105,18 +104,18 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <picture className="img w-100 img-carousel">
-          <source media="(max-width: 1920px)" srcSet={imgPortXXXL_id3} />
-          <source media="(max-width: 1600px)" srcSet={imgPortXXL_id3} />
-          <source media="(max-width: 1536px)" srcSet={imgPortXL_id3} />
-          <source media="(max-width: 1440px)" srcSet={imgPortL_id3} />
-          <source media="(max-width: 1366px)" srcSet={imgPortXXXM_id3} />
-          <source media="(max-width: 1360px)" srcSet={imgPortXXM_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXM_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortM_id3} />
-          <source media="(max-width: 412px)" srcSet={imgPortXXXS_id3} />
-          <source media="(max-width: 393px)" srcSet={imgPortXXS_id3} />
-          <source media="(max-width: 375px)" srcSet={imgPortXS_id3} />
           <source media="(max-width: 360px)" srcSet={imgPortS_id3} />
+          <source media="(max-width: 375px)" srcSet={imgPortXS_id3} />
+          <source media="(max-width: 393px)" srcSet={imgPortXXS_id3} />
+          <source media="(max-width: 412px)" srcSet={imgPortXXXS_id3} />
+          <source media="(max-width: 412px)" srcSet={imgPortM_id3} />
+          <source media="(max-width: 412px)" srcSet={imgPortXM_id3} />
+          <source media="(max-width: 1360px)" srcSet={imgPortXXM_id3} />
+          <source media="(max-width: 1366px)" srcSet={imgPortXXXM_id3} />
+          <source media="(max-width: 1440px)" srcSet={imgPortL_id3} />
+          <source media="(max-width: 1536px)" srcSet={imgPortXL_id3} />
+          <source media="(max-width: 1600px)" srcSet={imgPortXXL_id3} />
+          <source media="(max-width: 1920px)" srcSet={imgPortXXXL_id3} />
           <img src={imgPortXXXL_id3} alt="Nole-Piratininga" />
         </picture>
         <Carousel.Caption>

@@ -10,8 +10,7 @@ import { FaRegEye } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
 
-
-// IMPLEMENT OTHER SIZES IN PRODUCTION 
+// IMPLEMENT OTHER SIZES IN PRODUCTION
 import imgAboutS from "../../img/SOBRE_360X384.png";
 import imgAboutXS from "../../img/SOBRE_375X400.png";
 import imgAboutXXS from "../../img/SOBRE_393X510.png";
@@ -31,20 +30,20 @@ function About() {
     <div>
       <Navbar />
       <picture className="img-about">
-          <source media="(max-width: 1920px)" srcSet={imgAboutXXXL} />
-          <source media="(max-width: 1600px)" srcSet={imgAboutXXL} />
-          <source media="(max-width: 1536px)" srcSet={imgAboutXL} />
-          <source media="(max-width: 1440px)" srcSet={imgAboutL} />
-          <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
-          <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutXM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutM} />
-          <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
-          <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
-          <source media="(max-width: 375px)" srcSet={imgAboutXS} />
-          <source media="(max-width: 360px)" srcSet={imgAboutS} />
-          <img src={imgAboutXXXL} alt="About" />
-                    </picture> 
+        <source media="(max-width: 360px)" srcSet={imgAboutS} />
+        <source media="(max-width: 375px)" srcSet={imgAboutXS} />
+        <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
+        <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
+        <source media="(max-width: 412px)" srcSet={imgAboutM} />
+        <source media="(max-width: 412px)" srcSet={imgAboutXM} />
+        <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
+        <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
+        <source media="(max-width: 1440px)" srcSet={imgAboutL} />
+        <source media="(max-width: 1536px)" srcSet={imgAboutXL} />
+        <source media="(max-width: 1600px)" srcSet={imgAboutXXL} />
+        <source media="(max-width: 1920px)" srcSet={imgAboutXXXL} />
+        <img src={imgAboutXXXL} alt="About" />
+      </picture>
 
       <div className="ml-5 mr-5 mt-3 mb-5">
         <div className="text-center">
