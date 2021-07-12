@@ -24,60 +24,72 @@ function Portfolio(portfolio) {
         if (reqPortfolio === kebabTitle) {
           return (
             <div>
-              <div className="">
-                <div className="">
-                  <picture>
+              <div className="img-fullScreen">
+                <div className="img-fullScreen">
+                  <picture className="img-fullScreen">
                     <source
+                      className="img-screen"
                       media="(max-width: 360px)"
                       srcSet={portfolio.srcPortS}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 375px)"
                       srcSet={portfolio.srcPortXS}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 393px)"
                       srcSet={portfolio.srcPortXXS}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 412px)"
                       srcSet={portfolio.srcPortXXXS}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 412px)"
                       srcSet={portfolio.srcPortM}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 412px)"
                       srcSet={portfolio.srcPortXM}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 1360px)"
                       srcSet={portfolio.srcPortXXM}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 1366px)"
                       srcSet={portfolio.srcPortXXXM}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 1440px)"
                       srcSet={portfolio.srcPortL}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 1536px)"
                       srcSet={portfolio.srcPortXL}
                     />
                     <source
+                      className="img-screen"
                       media="(max-width: 1600px)"
                       srcSet={portfolio.srcPortXXL}
                     />
 
                     <source
+                      className="img-screen"
                       media="(max-width: 1920px)"
                       srcSet={portfolio.srcPortXXXL}
                     />
 
-                    <img src={portfolio.srcPortXXXL} alt="Portfolio" />
+                    <img className="img-screen" src={portfolio.srcPortXXXL} alt="Portfolio" />
                   </picture>
                 </div>
               </div>

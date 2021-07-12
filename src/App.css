@@ -33,6 +33,7 @@
 
 /* TEXT */
 
+
 html,
 .navbar,
 .nav-link,
@@ -201,6 +202,20 @@ a:hover {
 .logo-img:hover {
   transform: scale(1.015);
 }
+
+
+.img-fullScreen {
+  width: 100%;
+  height:100%;
+}
+
+.img-screen {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: cover;
+}
+
+
 
 /*OTHER ELEMENTS*/
 

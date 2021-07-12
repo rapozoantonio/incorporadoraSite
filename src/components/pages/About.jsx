@@ -29,7 +29,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <picture className="img-about">
+      <picture className="img-about img-screen">
         <source media="(max-width: 360px)" srcSet={imgAboutS} />
         <source media="(max-width: 375px)" srcSet={imgAboutXS} />
         <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
