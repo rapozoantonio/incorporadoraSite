@@ -8,7 +8,7 @@ import imgAboutS from "../../img/SOBRE_360X384.png";
 import imgAboutXS from "../../img/SOBRE_375X400.png";
 import imgAboutXXS from "../../img/SOBRE_393X510.png";
 import imgAboutXXXS from "../../img/SOBRE_412X521.png";
-import imgAboutM from "../../img/SOBRE_412X521.png";
+import imgAboutM from "../../img/SOBRE_412X535.png";
 import imgAboutXM from "../../img/SOBRE_412X549.png";
 import imgAboutXXM from "../../img/SOBRE_1360X460.png";
 import imgAboutXXXM from "../../img/SOBRE_1366X460.png";

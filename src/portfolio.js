@@ -1,13 +1,13 @@
-const imgCard_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_286x180px.jpg?alt=media&token=bd9cfc22-a821-44ae-b2c6-0b43d16700cb";
-const imgCard_id2 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/DREAMLAND_286x180px.jpg?alt=media&token=cd213286-cbd1-4d04-8115-f582048e45c1";
-const imgCard_id3 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/NOLE_286x180px.jpg?alt=media&token=20112f96-75d3-4fb9-a899-5fd0b90bb10d";
-// const imgCard_id4 = "";
-const imgCard_id5 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VINTAGE_MALL_286x180px.jpg?alt=media&token=75c147a7-5bfc-43f0-a5f5-c04ae3ed829d";
-const imgCard_id6 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BARRA_286x180px.jpg?alt=media&token=14f7f7f6-324b-4d8f-98fa-21c7b38b9e86";
-const imgCard_id7 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/VIVA_BU%CC%81ZIOS_286x180px.jpg?alt=media&token=2f6eaffd-0360-47c3-8425-9a02a7c6c16a";
-// const imgCard_id8 = "";
-const imgCard_id9 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/PREAMAR_286x180px.jpg?alt=media&token=81a7c755-3ac9-4260-8b86-b7795271e903";
-const imgCard_id10 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BOULEVARD_286x180px.jpg?alt=media&token=58b54c97-10fe-4a5a-b7d8-aaa750e79099";
+import imgCard_id1 from "./img/Card-img/BAY_VIEW_286x180px.jpg";
+import imgCard_id2 from "./img/Card-img/DREAMLAND_286x180px.jpg";
+import imgCard_id3 from "./img/Card-img/NOLE_286x180px.jpg";
+// import imgCard_id4 from "";
+import imgCard_id5 from "./img/Card-img/VINTAGE_MALL_286x180px.jpg";
+import imgCard_id6 from "./img/Card-img/VIVA_BARRA_286x180px.jpg";
+import imgCard_id7 from "./img/Card-img/VIVA_BUZIOS_286x180px.jpg";
+// import imgCard_id8 from "";
+import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
+import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
 
 // Port Images
 
