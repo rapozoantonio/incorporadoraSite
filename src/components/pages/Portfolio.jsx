@@ -54,7 +54,7 @@ function Portfolio(portfolio) {
                     />
                     <source
                       className="img-screen"
-                      media="(max-width: 412px)"
+                      media="(max-width: 828px)"
                       srcSet={portfolio.srcPortXM}
                     />
                     <source

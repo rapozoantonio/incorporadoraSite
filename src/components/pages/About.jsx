@@ -16,7 +16,7 @@ import imgAboutXS from "../../img/SOBRE_375X400.png";
 import imgAboutXXS from "../../img/SOBRE_393X510.png";
 import imgAboutXXXS from "../../img/SOBRE_412X521.png";
 import imgAboutM from "../../img/SOBRE_412X535.png";
-import imgAboutXM from "../../img/SOBRE_412X549.png";
+import imgAboutXM from "../../img/SOBRE_1075X828.png";
 import imgAboutXXM from "../../img/SOBRE_1360X460.png";
 import imgAboutXXXM from "../../img/SOBRE_1366X460.png";
 import imgAboutL from "../../img/SOBRE_1440X540.png";
@@ -30,12 +30,12 @@ function About() {
     <div>
       <Navbar />
       <picture className="img-about img-screen">
-        <source media="(max-width: 360px)" srcSet={imgAboutS} />
+        <source media="(max-width: 260px)" srcSet={imgAboutS} />
         <source media="(max-width: 375px)" srcSet={imgAboutXS} />
         <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
         <source media="(max-width: 412px)" srcSet={imgAboutXXXS} />
         <source media="(max-width: 412px)" srcSet={imgAboutM} />
-        <source media="(max-width: 412px)" srcSet={imgAboutXM} />
+        <source media="(max-width: 828px)" srcSet={imgAboutXM} />
         <source media="(max-width: 1360px)" srcSet={imgAboutXXM} />
         <source media="(max-width: 1366px)" srcSet={imgAboutXXXM} />
         <source media="(max-width: 1440px)" srcSet={imgAboutL} />
