@@ -197,7 +197,8 @@ a:hover {
 }
 
 .logo-img {
-  width: 120px;
+  max-width: none !important;
+  width: 120px !important;
   height: 38px;
 }
 
