@@ -11,7 +11,6 @@ import { GiOnTarget } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
 import MetaTags from "react-meta-tags";
 
-
 // IMPLEMENT OTHER SIZES IN PRODUCTION
 import imgAboutS from "../../img/SOBRE_360X384.png";
 import imgAboutXS from "../../img/SOBRE_375X400.png";
@@ -32,9 +31,7 @@ function About() {
   return (
     <div>
       <MetaTags>
-        <title>
-          Sobre | Falves Incorporadora
-        </title>
+        <title>Sobre | Falves Incorporadora</title>
         <meta
           name="description"
           content="Saiba mais sobre a história da Falves Incorporadora, onde você encontra os melhores empreendimentos para você ou seu negócio. Acesse já!"

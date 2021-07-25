@@ -10,15 +10,11 @@ import "../../App.css";
 import { Grid } from "@material-ui/core";
 import MetaTags from "react-meta-tags";
 
-
-
 function Home() {
   return (
     <div>
       <MetaTags>
-        <title>
-          Falves Incorporadora | Empreendimentos Imobiliários!
-        </title>
+        <title>Falves Incorporadora | Empreendimentos Imobiliários!</title>
         <meta
           name="description"
           content="A Falves Incorporadora é onde você encontra casas, apartamentos e imóveis perfeitos para compra. Acesse já!"

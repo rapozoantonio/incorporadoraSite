@@ -13,16 +13,13 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import MetaTags from "react-meta-tags";
 import WhatsApp from "../layouts/WhatsappWidget.jsx";
 
-
 function Portfolio(portfolio) {
   var reqPortfolio = window.location.pathname;
 
   return (
     <div>
-        <MetaTags>
-        <title>
-          Empreendimentos | Falves Incorporadora
-        </title>
+      <MetaTags>
+        <title>Empreendimentos | Falves Incorporadora</title>
         <meta
           name="description"
           content="Os melhores empreendimentos para você ou seu negócio você encontra aqui na Falves Incorporadora. Encontre casas, apartamentos e imóveis perfeitos para compra. Acesse já!"
@@ -101,7 +98,11 @@ function Portfolio(portfolio) {
                       srcSet={portfolio.srcPortXXXL}
                     />
 
-                    <img className="img-screen" src={portfolio.srcPortXXXL} alt="Portfolio" />
+                    <img
+                      className="img-screen"
+                      src={portfolio.srcPortXXXL}
+                      alt="Portfolio"
+                    />
                   </picture>
                 </div>
               </div>
