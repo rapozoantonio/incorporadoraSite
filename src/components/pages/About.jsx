@@ -9,6 +9,8 @@ import "../../App.css";
 import { FaRegEye } from "react-icons/fa";
 import { GiOnTarget } from "react-icons/gi";
 import { MdAccountBalance } from "react-icons/md";
+import MetaTags from "react-meta-tags";
+
 
 // IMPLEMENT OTHER SIZES IN PRODUCTION
 import imgAboutS from "../../img/SOBRE_360X384.png";
@@ -24,10 +26,20 @@ import imgAboutXL from "../../img/SOBRE_1536X518.png";
 import imgAboutXXL from "../../img/SOBRE_1600X540.png";
 import imgAboutXXXL from "../../img/SOBRE_1920X648.png";
 import Contact from "../layouts/Contact.jsx";
+import WhatsApp from "../layouts/WhatsappWidget.jsx";
 
 function About() {
   return (
     <div>
+      <MetaTags>
+        <title>
+          Sobre | Falves Incorporadora
+        </title>
+        <meta
+          name="description"
+          content="Saiba mais sobre a história da Falves Incorporadora, onde você encontra os melhores empreendimentos para você ou seu negócio. Acesse já!"
+        />
+      </MetaTags>
       <Navbar />
       <picture className="img-about img-screen">
         <source media="(max-width: 260px)" srcSet={imgAboutS} />
@@ -115,6 +127,7 @@ function About() {
         </Row>
       </div>
       <Contact />
+      <WhatsApp />
       <Footer />
     </div>
   );

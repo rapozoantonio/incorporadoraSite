@@ -5,6 +5,8 @@ import styled from "styled-components";
 import Button from "react-bootstrap/Button";
 import { BiBuildingHouse } from "react-icons/bi";
 import "../../App.css";
+import MetaTags from 'react-meta-tags';
+import WhatsApp from "../layouts/WhatsappWidget.jsx";
 
 function NotFoundPage() {
   const NotFoundContainer = styled.div`
@@ -32,6 +34,15 @@ function NotFoundPage() {
   `;
   return (
     <div>
+      <MetaTags>
+        <title>
+          Erro 404 Página não encontrada | Falves Incorporadora
+        </title>
+        <meta
+          name="description"
+          content="Os melhores empreendimentos para você ou seu negócio você encontra aqui na Falves Incorporadora. Encontre casas, apartamentos e imóveis perfeitos para compra. Acesse já!"
+        />
+      </MetaTags>
       <Navbar />
       <NotFoundContainer className="container">
         <div className="row">
@@ -55,6 +66,7 @@ function NotFoundPage() {
           </div>
         </div>
       </NotFoundContainer>
+      <WhatsApp />
       <Footer />
     </div>
   );

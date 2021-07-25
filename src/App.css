@@ -255,3 +255,14 @@ body {
 .card-width {
   max-width: 300px;
 }
+
+.whatsapp-widget{
+  position:fixed;
+  z-index:1000;
+  bottom:0px;
+  right:0px;
+}
+
+._1bpcM{
+  font-size:5em !important;
+}

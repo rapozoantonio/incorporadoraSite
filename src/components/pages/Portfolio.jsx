@@ -10,12 +10,24 @@ import ControlledTabsPortfolio from "../layouts/Tabs.jsx";
 import portfolios from "../../portfolio.js";
 import "../../App.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import MetaTags from "react-meta-tags";
+import WhatsApp from "../layouts/WhatsappWidget.jsx";
+
 
 function Portfolio(portfolio) {
   var reqPortfolio = window.location.pathname;
 
   return (
     <div>
+        <MetaTags>
+        <title>
+          Empreendimentos | Falves Incorporadora
+        </title>
+        <meta
+          name="description"
+          content="Os melhores empreendimentos para você ou seu negócio você encontra aqui na Falves Incorporadora. Encontre casas, apartamentos e imóveis perfeitos para compra. Acesse já!"
+        />
+      </MetaTags>
       <Navbar />
 
       {portfolios.map((portfolio) => {
@@ -138,7 +150,7 @@ function Portfolio(portfolio) {
         } else {
         }
       })}
-
+      <WhatsApp />
       <Footer />
     </div>
   );
