@@ -157,16 +157,16 @@ a:hover {
 }
 
 .btn-opacity {
-  /*opacity:60% !important;*/
+  opacity:60% !important;
 }
 
 .btn-opacity:hover {
-  /*opacity: 100% !important;*/
+  opacity: 100% !important;
 }
 
 /* IMAGE */
 .img {
-  /*opacity: 90%;*/
+  *opacity: 90%;
 }
 
 .img-carousel {
@@ -175,7 +175,7 @@ a:hover {
 
 .img:hover {
   transform: scale(1.009);
-  /*opacity: 100%;*/
+  opacity: 100%;
 }
 
 .img-portfolio {
