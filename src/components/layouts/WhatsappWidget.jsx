@@ -8,11 +8,11 @@ function WhatsApp() {
   return (
     <div className="whatsapp-widget">
       <WhatsAppWidget
-        companyName="Pedro Alves"
+        companyName="Falves Incorporadora"
         phoneNumber="5521982264552"
-        textReplyTime="Normalmente responde dentro de um dia"
+        textReplyTime="Online"
         sendButton="Enviar!"
-        message="Oi! 👋🏼 Como eu posso te ajudar?"
+        message="Oi! 👋🏼 Como eu posso te ajudar? Atenciosamente, Pedro."
         placeholder="Escreva sua mensagem"
       />
     </div>
