@@ -4,7 +4,7 @@ import styled from "styled-components";
 import portfolios from "../../portfolio.js";
 import _ from "lodash";
 import "../../App.css";
-import Logo from "../../img/logo_full_fosco_120x38.png";
+import Logo from "../../img/logo.svg";
 
 function Navbar(props) {
   const HeaderContainer = styled.header`
