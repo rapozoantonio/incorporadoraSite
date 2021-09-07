@@ -57,7 +57,7 @@ function ControlledCarousel() {
       controls={true}
     >
       <Carousel.Item>
-        <picture className="img w-100 img-carousel">
+        <picture className="img img-carousel">
           <source media="(max-width: 360px)" srcSet={imgAboutS} />
           <source media="(max-width: 375px)" srcSet={imgAboutXS} />
           <source media="(max-width: 393px)" srcSet={imgAboutXXS} />
@@ -74,7 +74,7 @@ function ControlledCarousel() {
         </picture>
       </Carousel.Item>
       <Carousel.Item>
-        <picture className="img w-100 img-carousel">
+        <picture className="img img-carousel">
           <source media="(max-width: 360px)" srcSet={imgPortS_id1} />
           <source media="(max-width: 375px)" srcSet={imgPortXS_id1} />
           <source media="(max-width: 393px)" srcSet={imgPortXXS_id1} />
@@ -103,7 +103,7 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <picture className="img w-100 img-carousel">
+        <picture className="img img-carousel">
           <source media="(max-width: 360px)" srcSet={imgPortS_id3} />
           <source media="(max-width: 375px)" srcSet={imgPortXS_id3} />
           <source media="(max-width: 393px)" srcSet={imgPortXXS_id3} />

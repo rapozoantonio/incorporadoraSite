@@ -4,28 +4,28 @@
   --mainLightGrey: rgba(172, 172, 172);
   --mainWhite: #fff;
   --mainOrange: #ca5b2f;
-  --bs-font-sans-serif: "Seb Neue Sans Serif Thin" !important;
-  --bs-font-monospace: "Seb Neue Sans Serif Thin" !important;
-  --font-family-sans-serif: "Seb Neue Sans Serif Thin" !important;
-  --font-family-monospace: "Seb Neue Sans Serif Thin" !important;
+  --bs-font-sans-serif: "Seb Neue Sans Serif Thin",Arial,sans-serif !important;
+  --bs-font-monospace: "Seb Neue Sans Serif Thin",Arial,sans-serif !important;
+  --font-family-sans-serif: "Seb Neue Sans Serif Thin",Arial,sans-serif !important;
+  --font-family-monospace: "Seb Neue Sans Serif Thin",Arial,sans-serif !important;
 }
 /*FONT */
 @font-face {
-  font-family: "Seb Neue Sans Serif Thin";
+  font-family: "Seb Neue Sans Serif Thin",Arial,sans-serif; 
   src: url("./fonts/SebneueThin-a3GK.otf");
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
-  font-family: "Seb Neue Sans Serif Black";
+  font-family: "Seb Neue Sans Serif Black",Arial,sans-serif;
   src: url("./fonts/SebneueBlack-dDGX.otf");
   font-style: normal;
   font-weight: 600;
 }
 
 @font-face {
-  font-family: "Seb Neue Sans Serif Regular";
+  font-family: "Seb Neue Sans Serif Regular",Arial,sans-serif;
   src: url("./fonts/SebneueRegular-eAGm.otf");
   font-style: normal;
   font-weight: 300;
@@ -40,7 +40,7 @@ html,
 footer,
 .btn,
 .mainLoginInput::placeholder {
-  font-family: "Seb Neue Sans Serif Regular" !important;
+  font-family: "Seb Neue Sans Serif Regular",Arial,sans-serif !important;
   font-weight: 300;
   color: var(--mainDark);
 }
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Seb Neue Sans Serif Black";
+  font-family: "Seb Neue Sans Serif Black",Arial,sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -59,7 +59,7 @@ h6 {
 p,
 ul,
 li {
-  font-family: "Seb Neue Sans Serif Thin";
+  font-family: "Seb Neue Sans Serif Thin",Arial,sans-serif;
   font-weight: 100;
   font-size: 1rem;
 }
@@ -169,7 +169,13 @@ a:hover {
   *opacity: 90%;
 }
 
+.img-card{
+  min-height:180px;
+  min-width:286px;
+}
+
 .img-carousel {
+  width:100%;
   height: 85vh !important;
 }
 
