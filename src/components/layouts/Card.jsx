@@ -29,7 +29,7 @@ function CardPortfolio(props) {
             href={"/empreendimentos/" + _.kebabCase(props.title)}
           />
         </Link>
-        <Card.Body className="img-card">
+        <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             <FaMapMarkerAlt size={15} />

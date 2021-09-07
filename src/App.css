@@ -170,8 +170,8 @@ a:hover {
 }
 
 .img-card{
-  min-height:180px;
-  min-width:286px;
+  height:180px;
+  width:286px;
 }
 
 .img-carousel {
