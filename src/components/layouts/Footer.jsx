@@ -52,7 +52,7 @@ function Footer(props) {
                     RJ, <span className="no-wrap">24220-008</span>
                   </li>
                   <li>
-                    <b>Telefone:</b> (21) 2620-4488
+                    <b>Telefone:</b> (21) 2621- 0042
                   </li>
                   <li>
                     <b>Horário:</b> Segunda a sexta de 09:00 às 17:00
