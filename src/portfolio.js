@@ -144,6 +144,18 @@ import imgPortXXS_id10 from "./img/Port-img/BOULEVARD_393X510.png";
 import imgPortXS_id10 from "./img/Port-img/BOULEVARD_375X400.png";
 import imgPortS_id10 from "./img/Port-img/BOULEVARD_360X384.png";
 
+import imgPortXXXL_id11 from "./img/Port-img/MB_LOFT_1920X648.jpg";
+import imgPortXXL_id11 from "./img/Port-img/MB_LOFT_1600X540.jpg";
+import imgPortXL_id11 from "./img/Port-img/MB_LOFT_1536X518.jpg";
+import imgPortL_id11 from "./img/Port-img/MB_LOFT_1440X540.jpg";
+import imgPortXXXM_id11 from "./img/Port-img/MB_LOFT_1366X460.jpg";
+import imgPortXXM_id11 from "./img/Port-img/MB_LOFT_1360X460.jpg";
+import imgPortXM_id11 from "./img/Port-img/MB_LOFT_1075X828.jpg";
+import imgPortM_id11 from "./img/Port-img/MB_LOFT_412X535.jpg";
+import imgPortXXXS_id11 from "./img/Port-img/MB_LOFT_412X521.jpg";
+import imgPortXXS_id11 from "./img/Port-img/MB_LOFT_393X510.jpg";
+import imgPortXS_id11 from "./img/Port-img/MB_LOFT_375X400.jpg";
+import imgPortS_id11 from "./img/Port-img/MB_LOFT_360X384.jpg";
 
 // Books
 
@@ -157,7 +169,7 @@ const book_id7 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporado
 //const book_id8 = "";
 //const video_id9 = "";
 const book_id10 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BOULEVARD_BOOK.pdf?alt=media&token=829b00db-2b84-4f79-b14e-37a336c4bfc5"
-
+//const book_id11 = ""
 // Videos
 
 const video_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_VIDEO.mp4?alt=media&token=a122473b-edb7-43ce-89e5-61e394153e04";
@@ -473,6 +485,36 @@ const portfolios = [
     areaPrivativa:"18 a 45 m²",
     nUnidades:24,
     tipologia:"quarto e sala"
+  },
+  {
+    id: 11,
+    title: "MB Loft",
+    subtitle: "Icaraí - Niterói - RJ",
+    description:
+      "O MB Loft é um dos primeiros empreendimentos da cidade alinhado com a tendência que está conquistando as pessoas e revolucionando o mercado imobiliário: o conceito Smart Home. Surgiu a partir da necessidade (e desejo) de quem busca viver em um espaço organizado, pratico, que tenha áreas de convivência funcionais, confortáveis,automatizados e que seja localizado de forma a facilitar a mobilidade urbana. Um empreendimento inovador, desenvolvido para integrar conforto e modernidade nos espaços incrivelmente planejados das áreas comuns e privativas.",
+    srcMap:
+    "", //faltando
+    srcCard: imgCard_id11,
+    srcPortXXXL: imgPortXXXL_id11,
+    srcPortXL: imgPortXL_id11,
+    srcPortXXXM: imgPortXXXM_id11,
+    srcPortXS: imgPortXS_id11,
+    srcPortS: imgPortS_id11,
+    srcPortXXL: imgPortXXL_id11,
+    srcPortL:imgPortL_id11,
+    srcPortXXM:imgPortXXM_id11,
+    srcPortXM: imgPortXM_id11,
+    srcPortM: imgPortM_id11,
+    srcPortXXXS:imgPortXXXS_id11,
+    srcPortXXS:imgPortXXS_id11,
+    book: "", //faltando
+    video: "",
+    isShowBook:"none",
+    isShowVideo: "none",
+    uniqueFeat:"O MB Loft fica a próximo ao polo gastronômico do Jardim Icaraí, o arborizado Campo de São Bento, a charmosa Rua Ator Paulo Gustavo e o badalado calçadão da praia de Icaraí.",
+    areaPrivativa:"33m² a 36m²",
+    nUnidades:104,
+    tipologia:"Loft"
   },
 ];
 
