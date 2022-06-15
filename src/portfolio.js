@@ -8,6 +8,7 @@ import imgCard_id7 from "./img/Card-img/VIVA_BUZIOS_286x180px.jpg";
 // import imgCard_id8 from "";
 import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
 import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
+import imgCard_id11 from "./img/Port-img/MB_LOFT_360X384.jpg";
 
 // Port Images
 
