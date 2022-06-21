@@ -9,6 +9,7 @@ import imgCard_id7 from "./img/Card-img/VIVA_BUZIOS_286x180px.jpg";
 import imgCard_id9 from "./img/Card-img/PREAMAR_286x180px.jpg";
 import imgCard_id10 from "./img/Card-img/BOULEVARD_286x180px.jpg";
 import imgCard_id11 from "./img/Port-img/MB_LOFT_360X384.jpg";
+import imgCard_id12 from "./img/Port-img/LOG_360X384.jpg";
 
 // Port Images
 
@@ -157,6 +158,20 @@ import imgPortXXXS_id11 from "./img/Port-img/MB_LOFT_412X521.jpg";
 import imgPortXXS_id11 from "./img/Port-img/MB_LOFT_393X510.jpg";
 import imgPortXS_id11 from "./img/Port-img/MB_LOFT_375X400.jpg";
 import imgPortS_id11 from "./img/Port-img/MB_LOFT_360X384.jpg";
+
+import imgPortXXXL_id12 from "./img/Port-img/LOG_1920X648.jpg";
+import imgPortXXL_id12 from "./img/Port-img/LOG_1600X540.jpg";
+import imgPortXL_id12 from "./img/Port-img/LOG_1536X518.jpg";
+import imgPortL_id12 from "./img/Port-img/LOG_1440X540.jpg";
+import imgPortXXXM_id12 from "./img/Port-img/LOG_1366X460.jpg";
+import imgPortXXM_id12 from "./img/Port-img/LOG_1360X460.jpg";
+import imgPortXM_id12 from "./img/Port-img/LOG_1075X828.jpg";
+import imgPortM_id12 from "./img/Port-img/LOG_412X535.jpg";
+import imgPortXXXS_id12 from "./img/Port-img/LOG_412X521.jpg";
+import imgPortXXS_id12 from "./img/Port-img/LOG_393X510.jpg";
+import imgPortXS_id12 from "./img/Port-img/LOG_375X400.jpg";
+import imgPortS_id12 from "./img/Port-img/LOG_360X384.jpg";
+
 
 // Books
 
@@ -516,6 +531,36 @@ const portfolios = [
     areaPrivativa:"33m² a 36m²",
     nUnidades:104,
     tipologia:"Loft"
+  },
+  {
+    id: 12,
+    title: "Log 132",
+    subtitle: "Ingá - Niterói - RJ",
+    description:
+      "Uma nova tendência para investir e morar. Descomplicado, Studios compactos com plantas inteligentes e condomínio com lavanderia completa. Prático, opção de compra mobiliada e equipados com melhor custo-benefício. Rentável, aluguel com máxima rentabilidade.  Eficaz, opção de investimento com resultado acima da média. Localização estratégica, próximo a todos os campus da UFF e tudo que você precisa.",
+    srcMap:
+    "", //faltando
+    srcCard: imgCard_id12,
+    srcPortXXXL: imgPortXXXL_id12,
+    srcPortXL: imgPortXL_id12,
+    srcPortXXXM: imgPortXXXM_id12,
+    srcPortXS: imgPortXS_id12,
+    srcPortS: imgPortS_id12,
+    srcPortXXL: imgPortXXL_id12,
+    srcPortL:imgPortL_id12,
+    srcPortXXM:imgPortXXM_id12,
+    srcPortXM: imgPortXM_id12,
+    srcPortM: imgPortM_id12,
+    srcPortXXXS:imgPortXXXS_id12,
+    srcPortXXS:imgPortXXS_id12,
+    book: "", //faltando
+    video: "",
+    isShowBook:"none",
+    isShowVideo: "none",
+    uniqueFeat:"",
+    areaPrivativa:"19m² a 50m²",
+    nUnidades:19,
+    tipologia:"Studio"
   },
 ];
 
