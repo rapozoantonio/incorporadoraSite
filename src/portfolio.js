@@ -509,7 +509,7 @@ const portfolios = [
     description:
       "O MB Loft é um dos primeiros empreendimentos da cidade alinhado com a tendência que está conquistando as pessoas e revolucionando o mercado imobiliário: o conceito Smart Home. Surgiu a partir da necessidade (e desejo) de quem busca viver em um espaço organizado, pratico, que tenha áreas de convivência funcionais, confortáveis,automatizados e que seja localizado de forma a facilitar a mobilidade urbana. Um empreendimento inovador, desenvolvido para integrar conforto e modernidade nos espaços incrivelmente planejados das áreas comuns e privativas.",
     srcMap:
-    "", //faltando
+    "https://www.google.com/maps/d/u/1/embed?mid=1AAyiG37nkGqmKxxbPDqDRAwYkb0gifw&ehbc=2E312F",
     srcCard: imgCard_id11,
     srcPortXXXL: imgPortXXXL_id11,
     srcPortXL: imgPortXL_id11,
@@ -539,7 +539,7 @@ const portfolios = [
     description:
       "Uma nova tendência para investir e morar. Descomplicado, Studios compactos com plantas inteligentes e condomínio com lavanderia completa. Prático, opção de compra mobiliada e equipados com melhor custo-benefício. Rentável, aluguel com máxima rentabilidade.  Eficaz, opção de investimento com resultado acima da média. Localização estratégica, próximo a todos os campus da UFF e tudo que você precisa.",
     srcMap:
-    "", //faltando
+    "https://www.google.com/maps/d/u/1/embed?mid=18hcK7d20Fk6bNwoZhJdzdvl43py3CE4&ehbc=2E312F",
     srcCard: imgCard_id12,
     srcPortXXXL: imgPortXXXL_id12,
     srcPortXL: imgPortXL_id12,
