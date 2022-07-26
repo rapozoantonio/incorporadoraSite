@@ -185,7 +185,8 @@ const book_id7 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporado
 //const book_id8 = "";
 //const video_id9 = "";
 const book_id10 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BOULEVARD_BOOK.pdf?alt=media&token=829b00db-2b84-4f79-b14e-37a336c4bfc5"
-//const book_id11 = ""
+const book_id11 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/MB_LOFT_BOOK.pdf?alt=media&token=59e39096-b272-4697-8438-6046fcec5a67"
+const book_id12 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/LOG_BOOK.pdf?alt=media&token=41458c18-f650-464c-b883-e6f25b42acfd"
 // Videos
 
 const video_id1 = "https://firebasestorage.googleapis.com/v0/b/falves-incorporadora.appspot.com/o/BAY_VIEW_VIDEO.mp4?alt=media&token=a122473b-edb7-43ce-89e5-61e394153e04";
@@ -523,9 +524,9 @@ const portfolios = [
     srcPortM: imgPortM_id11,
     srcPortXXXS:imgPortXXXS_id11,
     srcPortXXS:imgPortXXS_id11,
-    book: "", //faltando
+    book: book_id11,
     video: "",
-    isShowBook:"none",
+    isShowBook:"",
     isShowVideo: "none",
     uniqueFeat:"O MB Loft fica a próximo ao polo gastronômico do Jardim Icaraí, o arborizado Campo de São Bento, a charmosa Rua Ator Paulo Gustavo e o badalado calçadão da praia de Icaraí.",
     areaPrivativa:"33m² a 36m²",
@@ -553,9 +554,9 @@ const portfolios = [
     srcPortM: imgPortM_id12,
     srcPortXXXS:imgPortXXXS_id12,
     srcPortXXS:imgPortXXS_id12,
-    book: "", //faltando
+    book: book_id12, 
     video: "",
-    isShowBook:"none",
+    isShowBook:"",
     isShowVideo: "none",
     uniqueFeat:"",
     areaPrivativa:"19m² a 50m²",
